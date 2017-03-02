@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Каталог товаров</title>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-top">
+
+    <div class="logo">
+      <a href="index.html" class="logo__link">
+        <img src="http://placehold.it/90x40" alt="Логотип">
+      </a>
+    </div>
+
+    <nav class="menu">
+      <button class="menu__toggle" type="button">open/close</button>
+      <ul class="menu__list">
+        <li class="menu__item"><a class="menu__link">Каталог товаров</a></li>
+        <li class="menu__item"><a href="form.html" class="menu__link">Вязание на заказ</a></li>
+        <li class="menu__item"><a href="#" class="menu__link">Поиск по сайту</a></li>
+        <li class="menu__item"><a href="#" class="menu__link">Корзина: <span>пока пуста</span></a></li>
+      </ul>
+    </nav>
+
+  </div>
+
+  <div class="header-simple">
+    <h1 class="header-simple__title">Каталог товаров</h1>
+  </div>
+
+</header>
+
+<main class="content">
+
+  <section class="product">
+
+    <div class="card">
+      <div class="card__img-wrap">
+        <img src="http://placehold.it/260x195" alt="Зайчик-попрыгайчик" class="card__img">
+      </div>
+      <div class="card__description">
+        <h2 class="card__title">Зайчик попрыгайчик</h2>
+        <p class="card__property">Рост 30 см, вес 200 г.</p>
+        <div class="card__price-wrap">
+          <span class="card__price">1 200 руб.</span>
+          <span class="card__price-icon"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card__img-wrap">
+        <img src="http://placehold.it/260x195" alt="Зайчик-попрыгайчик" class="card__img">
+      </div>
+      <div class="card__description">
+        <h2 class="card__title">Корзинка для белья</h2>
+        <p class="card__property">Диаметр 15 см, высота 10 см</p>
+        <div class="card__price-wrap">
+          <span class="card__price">690 руб.</span>
+          <span class="card__price-icon"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card__img-wrap">
+        <img src="http://placehold.it/260x195" alt="Зайчик-попрыгайчик" class="card__img">
+      </div>
+      <div class="card__description">
+        <h2 class="card__title">Большая корзинка для игрушек</h2>
+        <p class="card__property">Диаметр 30 см, высота 30 см</p>
+        <div class="card__price-wrap">
+          <span class="card__price">1 500 руб.</span>
+          <span class="card__price-icon"></span>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="process">
+    <h2 class="process__title">
+      <div class="process__icon"></div>
+      Процесс производства
+    </h2>
+    <div class="video__wrap">
+      <video src="" class="video" poster="http://placehold.it/260x150"></video>
+    </div>
+    <p class="process__text">По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как
+      появляются наши товары.
+    </p>
+    <button class="btn">Сделать заказ</button>
+
+  </section>
+
+</main>
+<footer class="footer">
+  <div class="social">
+    <a href="#" class="social__link">Insagram</a>
+    <a href="#" class="social__link">Facebook</a>
+    <a href="#" class="social__link">Twitter</a>
+  </div>
+  <div class="copyright">
+    <i>Разработано</i>
+    <a href="" class="copyright__link">HTML-academy</a>
+  </div>
+</footer>
+
+<div class="modal">
+  <h2 class="modal__title">Добавить в корзину</h2>
+  <p class="modal__text">Выберите размер:</p>
+  <div class="size">
+    <label for="small">S
+      <input type="radio" id="small" name="size">
+    </label>
+    <label for="medium">M
+      <input type="radio" id="medium" name="size">
+    </label>
+    <label for="large">L
+      <input type="radio" id="large" name="size">
+    </label>
+  </div>
+  <button class="btn" type="button">Добавить</button>
+</div>
+
+</body>
+</html>
