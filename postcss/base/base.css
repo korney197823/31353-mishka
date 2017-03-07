@@ -1,0 +1,11 @@
+html {
+  box-sizing: border-box;
+  font-size: 16;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: $font-family;
+}

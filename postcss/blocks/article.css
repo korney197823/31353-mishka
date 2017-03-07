@@ -1,0 +1,44 @@
+.article {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.article__title {
+  margin: 0;
+  font-size: 25px;
+  line-height: 30px;
+  i {
+    text-transform: uppercase;
+    font-style: normal;
+    font-size: 17px;
+    line-height: 20px;
+    color: $color-main;
+  }
+}
+
+.article__text {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 15PX;
+  line-height: 24px;
+}
+.article__table {
+  width: 100%;
+  margin-bottom: 30px;
+  td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-collapse: collapse;
+    border-bottom: 1px solid #ECECEC;
+  }
+}
+.article__img {
+  display: block;
+  margin: 0 auto;
+}
+.article__price {
+  text-align: center;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: $font-bold;
+}

@@ -5,12 +5,13 @@
   <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
   <title>Каталог товаров</title>
 </head>
 <body>
 
 <header class="header">
-  <div class="header-top">
+  <div class="row row--header">
 
     <div class="logo">
       <a href="index.html" class="logo__link">
@@ -30,8 +31,8 @@
 
   </div>
 
-  <div class="header-simple">
-    <h1 class="header-simple__title">Каталог товаров</h1>
+  <div class="promo--simple">
+    <h1 class="promo__title--simple">Каталог товаров</h1>
   </div>
 
 </header>
@@ -116,17 +117,20 @@
   <h2 class="modal__title">Добавить в корзину</h2>
   <p class="modal__text">Выберите размер:</p>
   <div class="size">
-    <label for="small">S
-      <input type="radio" id="small" name="size">
-    </label>
-    <label for="medium">M
-      <input type="radio" id="medium" name="size">
-    </label>
-    <label for="large">L
-      <input type="radio" id="large" name="size">
-    </label>
+    <form class="size__form" action="https://echo.htmlacademy.ru/" method="post">
+      <label for="small">S
+        <input type="radio" id="small" name="size" value="s">
+      </label>
+      <label for="medium">M
+        <input type="radio" id="medium" name="size" value="m">
+      </label>
+      <label for="large">L
+        <input type="radio" id="large" name="size" value="l">
+      </label>
+      <button class="btn" type="submit">Добавить</button>
+    </form>
   </div>
-  <button class="btn" type="button">Добавить</button>
+
 </div>
 
 </body>

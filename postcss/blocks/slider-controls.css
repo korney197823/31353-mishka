@@ -1,0 +1,16 @@
+.slider-controls {
+  display: flex;
+}
+
+.slider-controls__arrow {
+  height: 52px;
+  width: 50%;
+  border: 1px solid #ECECEC;
+  font-size: 17px;
+  line-height: 30;
+  color: $gray--dark;
+  &--next {
+     border-left-color: transparent;
+   }
+}
+

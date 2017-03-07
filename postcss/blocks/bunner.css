@@ -1,0 +1,14 @@
+.bunner {
+  padding: 25px 30px;
+  background-color: $color-main;
+  &--dark {
+     background-color: $color-main--dark;
+   }
+}
+.bunner__title {
+  width: 50%;
+  margin: 0;
+  font-size: 19px;
+  line-height: 24px;
+  color: #ffffff;
+}

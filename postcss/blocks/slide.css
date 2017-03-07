@@ -1,0 +1,10 @@
+.slide__text {
+  font-size: 15px;
+  line-height: 30px;
+  color: $gray--dark;
+}
+.slide__author {
+  font-size: 18px;
+  line-height: 24px;
+}
+
