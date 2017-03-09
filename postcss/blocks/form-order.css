@@ -1,0 +1,13 @@
+.form-order {
+  margin-bottom: 55px;
+}
+.form-order__text {
+  font-size: 13px;
+  line-height: 24px;
+  color: $gray--dark;
+}
+.form-order__require {
+  font-size: 14px;
+  line-height: 16px;
+  color: $gray--dark;
+}

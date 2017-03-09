@@ -28,6 +28,14 @@
 @import "blocks/email.css";
 @import "blocks/features.css";
 @import "blocks/footer.css";
+@import "blocks/form-addition.css";
+@import "blocks/form-color.css";
+@import "blocks/form-email.css";
+@import "blocks/form-group.css";
+@import "blocks/form-name.css";
+@import "blocks/form-order.css";
+@import "blocks/form-tel.css";
+@import "blocks/form-type.css";
 @import "blocks/header.css";
 @import "blocks/location.css";
 @import "blocks/logo.css";

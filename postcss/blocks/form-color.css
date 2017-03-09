@@ -1,0 +1,37 @@
+
+
+.form-color__input {
+  display: none;
+}
+
+.form-color__checkbox {
+  display: block;
+  position: relative;
+  margin-bottom: 22px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 64px;
+  cursor: pointer;
+  &:before {
+     position: absolute;
+     content: '';
+     width: 40px;
+     height: 40px;
+     top: 0;
+     left: 0;
+     border: 2px solid $gray--dark;
+   }
+}
+.form-color__input:checked + .form-color__checkbox {
+  &:after {
+     position: absolute;
+     content: '';
+     width: 16px;
+     height: 8px;
+     top: 13px;
+     left: 13px;
+     border-left: 3px solid $gray--dark;
+     border-bottom: 3px solid $gray--dark;
+     transform: rotate(-45deg);
+   }
+}

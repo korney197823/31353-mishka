@@ -11,6 +11,7 @@
   background-position: center;
   background-color: inherit;
   cursor: pointer;
+  outline: none;
   &--open {
      background-image: url(../img/icon-menu-open.svg);
    }

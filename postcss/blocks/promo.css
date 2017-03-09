@@ -9,6 +9,13 @@
   background-position: center center;
   -webkit-background-size:;
   background-size: cover;
+  &--simple {
+     justify-content: center;
+     height: 177px;
+     padding-top: 0;
+     background-image: none;
+     background-color: #F1F1F1;
+   }
 }
 .promo__title {
   margin: 0;
@@ -17,4 +24,8 @@
   font-size: 27px;
   line-height: 30px;
   font-weight: $font-bold;
+  &--simple {
+     padding-left: 0;
+     padding-right: 0;
+   }
 }

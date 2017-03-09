@@ -19,4 +19,5 @@
   font-size: 17px;
   line-height: 16px;
   font-weight: $font-bold;
+  cursor: pointer;
 }

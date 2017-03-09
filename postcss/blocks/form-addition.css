@@ -1,0 +1,6 @@
+.form-addition__input {
+  width: 100%;
+  min-height: 142px;
+  border: 2px solid $gray--darken;
+  resize: none;
+}

@@ -9,6 +9,8 @@
   line-height: 20px;
   font-weight: $font-bold;
   color: $gray--dark;
+  outline: none;
+  cursor: pointer;
   &--modal {
      margin-top: 30px;
      background-color: $color-main;

@@ -9,3 +9,9 @@ html {
 body {
   font-family: $font-family;
 }
+
+img,
+video {
+  display: block;
+  max-width: 100%;
+}
