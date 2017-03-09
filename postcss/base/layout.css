@@ -1,0 +1,17 @@
+
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.row {
+  &--header {
+     padding: 20px 30px;
+   }
+
+  &--modal {
+     display: flex;
+     justify-content: space-between;
+   }
+}
+
+

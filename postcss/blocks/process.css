@@ -1,0 +1,24 @@
+.process {
+  margin-bottom: 58px;
+}
+.process__title {
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 90px;
+  border: 1px solid #ECECEC;
+  border-bottom-color: transparent;
+  font-size: 17px;
+  line-height: 24px;
+
+}
+.process__discription {
+  padding: 30px;
+  border: 1px solid #ECECEC;
+  border-top-color: transparent;
+}
+.process__text {
+  font-size: 13px;
+  line-height: 24px;
+  color: $gray--dark;
+}

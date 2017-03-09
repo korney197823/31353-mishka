@@ -1,0 +1,38 @@
+
+.menu__toggle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: 30px;
+  top: 20px;
+  padding: 0;
+  border: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: inherit;
+  cursor: pointer;
+  outline: none;
+  &--open {
+     background-image: url(../img/icon-menu-open.svg);
+   }
+}
+.menu {
+  font-size: 0;
+
+}
+.menu__list {
+  display: none;
+  padding: 0;
+  list-style-type: none;
+
+}
+.menu__link {
+  display: block;
+  padding: 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: $font-bold;
+  color: $gray--darken;
+}

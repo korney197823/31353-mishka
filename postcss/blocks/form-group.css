@@ -1,0 +1,15 @@
+.form-group {
+  label {
+    font-size: 17px;
+    font-weight: $font-bold;
+    line-height: 18px;
+  }
+}
+
+.form-group__title {
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: $font-bold;
+  line-height: 16px;
+  color: $color-main;
+}

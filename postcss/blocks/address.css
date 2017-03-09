@@ -1,0 +1,15 @@
+.address {
+  display: flex;
+  color: $gray--dark;
+}
+.address__title {
+  margin: 0;
+  margin-right: 24px;
+  font-size: 15px;
+  line-height: 30px;
+}
+.address__text {
+  margin: 0;
+  font-size: 15px;
+  line-height: 30px;
+}

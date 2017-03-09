@@ -1,0 +1,10 @@
+.review {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.review__title {
+  margin: 0;
+  font-size: 25px;
+  line-height: 30px;
+  color: $gray--darken;
+}
