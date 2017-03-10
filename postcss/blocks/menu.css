@@ -1,12 +1,49 @@
 
-
 .menu {
-  font-size: 0;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  @media (min-width: $tablet) {
+    position: relative;
+  }
 }
+
+
 .menu__item {
   border-bottom: 1px solid #ECECEC;
-  @media (min-width: $tablet) {
+    @media (min-width: $tablet) {
     border-bottom: none;
+  }
+
+  &--catalog {
+    @media (min-width: $tablet) {
+      position: absolute;
+      display: block;
+      width: 25%;
+      left: 0;
+      top: 80px;
+     }
+   }
+   &--order {
+    @media (min-width: $tablet) {
+      position: absolute;
+      display: block;
+      width: 25%;
+      left: 25%;
+      top: 80px;
+     }
+   }
+
+   &--search {
+      @media (min-width: $tablet) {
+        width: 12.425%;
+      }
+    }
+    &--cart {
+      @media (min-width: $tablet) {
+        width: 39.671%;
+    }
   }
   &--shipping {
      display: none;
@@ -14,44 +51,50 @@
        position: absolute;
        display: block;
        right: 0;
-       top: 110px;
+       top: 80px;
      }
    }
+  &--mobile {
+    @media (max-width: $mobile-only) {
+      display: none;
+    }
+  }
+}
+.menu__item.open {
+  display: block;
 }
 .menu__list {
-  display: none;
-  position: absolute;
-  width: 100%;
-  left: 0;
-  top: 80px;
+  margin: 0;
   padding: 0;
   background-color: #ffffff;
   list-style-type: none;
-  @media (min-width: $tablet) {
-    position: static;
-    display: flex;
-  }
+    @media (min-width: $tablet) {
+      position: static;
+      display: flex;
+    }
+
 }
-.menu__list.open {
-  display: block;
-}
+
 .menu__link {
-  display: block;
-  padding: 28px 30px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80px;
   text-decoration: none;
   font-size: 17px;
   line-height: 24px;
   font-weight: $font-bold;
   color: $gray--darken;
   @media (min-width: $tablet) {
-    &--shipping,
     &--catalog,
     &--order {
-    font-size: 15px;
-    color: $ gray--dark;
+      justify-content: flex-start;
+      font-size: 15px;
+      color: $ gray--dark;
     }
     &--shipping {
+       font-size: 15px;
+       color: $ gray--dark;
        font-weight: $font-regular;
      }
   }

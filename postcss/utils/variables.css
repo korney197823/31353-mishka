@@ -25,5 +25,8 @@ $color-main--darken:   #46C1AE;
 
 /*RESPONSIVE*/
 
+$mobile-only: 767px;
 $tablet: 768px;
 $desktop: 1150px;
+
+

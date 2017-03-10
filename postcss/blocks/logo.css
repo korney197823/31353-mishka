@@ -1,8 +1,10 @@
 .logo {
-  width: 86px;
-  height: 40px;
-  align-self: center;
   @media (min-width: $tablet) {
-    height: 46px;
+    width: 47.904%;
+  }
+}
+.logo__link.menu__link {
+  @media (min-width: $tablet) {
+    justify-content: flex-start;
   }
 }
