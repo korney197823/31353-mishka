@@ -1,6 +1,8 @@
 .bunner {
+  display: block;
   padding: 25px 30px;
   background-color: $color-main;
+  cursor: pointer;
   &--dark {
      background-color: $color-main--dark;
    }

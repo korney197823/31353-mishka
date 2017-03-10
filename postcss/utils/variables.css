@@ -7,6 +7,7 @@ $font-regular: 400;
 $font-bold: 700;
 
 
+/*COLORS*/
 
 $gray--lightest:       #CACACA;
 $gray--lighten:        #B2B2B2;
@@ -16,11 +17,13 @@ $gray--dark:           #444444;
 $gray--darken:         #000000;
 
 
-
-
 $color-main--lighten:  #D0F1EA;
 $color-main--light:    #59D5BC;
 $color-main:           #63D1BB;
 $color-main--dark:     #56C3B2;
 $color-main--darken:   #46C1AE;
 
+/*RESPONSIVE*/
+
+$tablet: 768px;
+$desktop: 1150px;

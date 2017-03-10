@@ -22,14 +22,20 @@
     <nav class="menu">
       <button class="menu__toggle menu__toggle--open" type="button">open/close</button>
       <ul class="menu__list">
-        <li class="menu__item">
-          <a href="catalog.html" class="menu__link">Каталог товаров</a></li>
-        <li class="menu__item">
-          <a href="form.html" class="menu__link">Вязание на заказ</a></li>
-        <li class="menu__item">
-          <a href="#" class="menu__link">Поиск по сайту</a></li>
-        <li class="menu__item">
-          <a href="#" class="menu__link">Корзина: <span>пока пуста</span></a></li>
+        <li class="menu__item menu__item--catalog">
+          <a href="catalog.html" class="menu__link menu__link--catalog">Каталог товаров</a>
+        </li>
+        <li class="menu__item menu__item--order">
+          <a href="form.html" class="menu__link menu__link--order">Вязание на заказ</a>
+        </li>
+        <li class="menu__item menu__item--search">
+          <a href="#" class="menu__link">Поиск по сайту</a>
+        </li>
+        <li class="menu__item menu__item--cart">
+          <a href="#" class="menu__link">Корзина: <span>пока пуста</span></a>
+        </li><li class="menu__item menu__item--shipping">
+          <a href="#" class="menu__link menu__link--shipping ">Бесплатная доставка по России</a>
+        </li>
       </ul>
     </nav>
 
@@ -38,14 +44,14 @@
   <div class="promo">
     <h1 class="promo__title">Милые штуки ручной работы для дома</h1>
     <div class="row">
-      <div class="bunner">
+      <a class="bunner">
         <h2 class="bunner__title">Предметы интерьера</h2>
         <div class="bunner__icon"></div>
-      </div>
-      <div class="bunner bunner--dark">
+      </a>
+      <a class="bunner bunner--dark">
         <h2 class="bunner__title">Детские игрушки</h2>
         <div class="bunner__icon"></div>
-      </div>
+      </a>
     </div>
   </div>
 
@@ -192,6 +198,6 @@
   </div>
 
 </div>
-
+<script src="js/main.js"></script>
 </body>
 </html>
