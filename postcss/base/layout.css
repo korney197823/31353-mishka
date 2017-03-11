@@ -10,7 +10,6 @@
   }
   @media (min-width: $desktop) {
     width: 1050px;
-    margin: 0 auto;
   }
 }
 .row {
@@ -19,6 +18,17 @@
        @media (min-width: $tablet) {
          min-height: 89px;
        }
+   }
+  &--banner {
+     @media (min-width: $tablet) {
+       width: 668px;
+       margin: 0 auto;
+       display: flex;
+     }
+     @media (min-width: $desktop) {
+       width: 1050px;
+     }
+
    }
   &--modal {
      display: flex;

@@ -11,6 +11,7 @@
   background-size: cover;
     @media (min-width: $tablet) {
       height: 743px;
+      padding-top: 160px;
     }
   &--simple {
      justify-content: center;
@@ -27,6 +28,17 @@
   font-size: 27px;
   line-height: 30px;
   font-weight: $font-bold;
+    @media (min-width: $tablet) {
+      width: 80%;
+      margin: 0 auto;
+      font-size: 43px;
+      line-height: 50px;
+    }
+    @media (min-width: $desktop) {
+      width: 60%;
+      font-size: 53px;
+      line-height: 57px;
+    }
   &--simple {
      padding-left: 0;
      padding-right: 0;
