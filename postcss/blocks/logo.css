@@ -2,9 +2,15 @@
   @media (min-width: $tablet) {
     width: 47.904%;
   }
+  @media (min-width: $desktop) {
+    order: 2;
+  }
 }
 .logo__link.menu__link {
   @media (min-width: $tablet) {
     justify-content: flex-start;
+  }
+  @media (min-width: $desktop) {
+    justify-content: center;
   }
 }

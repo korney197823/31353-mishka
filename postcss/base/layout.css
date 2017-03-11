@@ -16,6 +16,9 @@
 .row {
   &--header {
      min-height: 80px;
+       @media (min-width: $tablet) {
+         min-height: 89px;
+       }
    }
   &--modal {
      display: flex;

@@ -24,6 +24,10 @@
       left: 0;
       top: 80px;
      }
+    @media (min-width: $desktop) {
+      position: static;
+      border-right: 1px solid #ECECEC;
+    }
    }
    &--order {
     @media (min-width: $tablet) {
@@ -33,19 +37,50 @@
       left: 25%;
       top: 80px;
      }
+    @media (min-width: $desktop) {
+      position:static;
+      order: 1;
+    }
    }
 
    &--search {
       @media (min-width: $tablet) {
         width: 12.425%;
       }
+      @media (min-width: $desktop) {
+        order: 3;
+      }
     }
-    &--cart {
+   &--cart {
       @media (min-width: $tablet) {
         width: 39.671%;
-    }
+      }
+      @media (min-width: $desktop) {
+        order: 4;
+      }
   }
-  &--shipping {
+   &--new {
+      display: none;
+        @media (min-width: $desktop) {
+          position: absolute;
+          display: block;
+          width: 16.6666667%;
+          left: 0;
+          top: 80px;
+      }
+    }
+
+   &--sale {
+      display: none;
+        @media (min-width: $desktop) {
+          position: absolute;
+          display: block;
+          width: 16.66666667%;
+          left: 17%;
+          top: 80px;
+        }
+    }
+   &--shipping {
      display: none;
      @media (min-width: $tablet) {
        position: absolute;
@@ -86,16 +121,37 @@
   font-weight: $font-bold;
   color: $gray--darken;
   @media (min-width: $tablet) {
+    min-height: 89px;
     &--catalog,
     &--order {
       justify-content: flex-start;
       font-size: 15px;
-      color: $ gray--dark;
+      color: $gray--dark;
+      @media (min-width: $desktop) {
+        font-size: 17px;
+      }
     }
+    &--cart {
+      justify-content: flex-end;
+     }
+    &--search {
+       font-size: 0;
+       border-left: 1px solid #ECECEC;
+       border-right: 1px solid #ECECEC;
+     }
     &--shipping {
        font-size: 15px;
-       color: $ gray--dark;
+       color: $gray--dark;
        font-weight: $font-regular;
+     }
+  @media (min-width: $desktop) {
+    &--new,
+    &--sale {
+       font-size: 15px;
+       }
+    &--new {
+       justify-content: flex-start;
+     }
      }
   }
 }

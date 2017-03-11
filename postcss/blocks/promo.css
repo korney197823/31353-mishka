@@ -9,6 +9,9 @@
   background-position: center center;
   -webkit-background-size:;
   background-size: cover;
+    @media (min-width: $tablet) {
+      height: 743px;
+    }
   &--simple {
      justify-content: center;
      height: 177px;

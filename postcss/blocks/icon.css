@@ -4,6 +4,17 @@
   background-repeat: no-repeat;
   background-position: center, center;
   &--search {
+     margin-right: 25px;
      background-image: url("../img/icon-search.svg");
+     @media (min-width: $tablet) {
+       margin-right: 0;
+     }
+   }
+  &--cart {
+     margin-right: 25px;
+     background-image: url("../img/icon-cart.svg");
+     @media (min-width: $tablet) {
+        margin-right: 30px;
+     }
    }
 }
