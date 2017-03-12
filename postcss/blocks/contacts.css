@@ -1,7 +1,25 @@
 .contacts {
   padding: 30px;
+    @media (min-width: $tablet) {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    @media (min-width: $desktop) {
+      width: 30%;
+      padding-left: 0;
+      padding-right: 0;
+    }
 }
 .contacts__title {
   font-size: 18px;
   line-height: 30px;
+    @media (min-width: $tablet) {
+      width: 100%;
+      font-size: 47px;
+      line-height: 50px;
+    }
+    @media (min-width: $desktop) {
+      font-size: 53px;
+      line-height: 57px;
+    }
 }

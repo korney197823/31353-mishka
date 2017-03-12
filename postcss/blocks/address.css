@@ -1,15 +1,27 @@
 .address {
   display: flex;
   color: $gray--dark;
+    @media (min-width: $tablet) {
+      width: 50%;
+    }
+    @media (min-width: $desktop) {
+      width: 100%;
+    }
 }
 .address__title {
   margin: 0;
   margin-right: 24px;
   font-size: 15px;
   line-height: 30px;
+    @media (min-width: $tablet) {
+      font-size: 17px;
+    }
 }
 .address__text {
   margin: 0;
   font-size: 15px;
   line-height: 30px;
+    @media (min-width: $tablet) {
+      font-size: 17px;
+    }
 }
