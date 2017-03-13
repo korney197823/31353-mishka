@@ -12,11 +12,11 @@
   }
   &--footer {
     display: none;
-    @media (min-width: $tablet) {
-      display: flex;
-      width: 33.3%
+      @media (min-width: $tablet) {
+        display: flex;
+        width: 33.3%
+      }
     }
-  }
 }
 .logo__link.menu__link {
   @media (min-width: $tablet) {
