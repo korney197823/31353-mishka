@@ -9,4 +9,9 @@
       margin-bottom: 0;
       overflow: hidden;
     }
+  img {
+    @media (min-width: $desktop) {
+      width: 100%;
+    }
+  }
 }

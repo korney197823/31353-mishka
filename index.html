@@ -89,7 +89,7 @@
         <img class="article__img" src="img/triple-set-mobile@1x.jpg" alt="Вязанные корзинки">
       </div>
       <p class="article__price">Цена: 990 руб.</p>
-      <button class="btn" type="button">Заказать</button>
+      <button class="btn" id="open-modal" type="button">Заказать</button>
     </div>
   </section>
 
@@ -195,7 +195,7 @@
   </div>
 </footer>
 
-<div class="modal">
+<div class="modal closed">
   <h2 class="modal__title">Добавить в корзину</h2>
   <p class="modal__text">Выберите размер:</p>
   <div class="size">
@@ -211,11 +211,12 @@
         <label class="size__radio" for="large">L</label>
 
       </div>
-      <button class="btn btn--modal" type="submit">Добавить</button>
+      <button class="btn btn--modal open-modal" type="submit">Добавить</button>
     </form>
   </div>
 
 </div>
+<div class="modal__overlay closed"></div>
 <script src="js/main.js"></script>
 </body>
 </html>

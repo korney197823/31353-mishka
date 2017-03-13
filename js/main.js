@@ -8,3 +8,21 @@ menuButtom.addEventListener('click', function () {
     menu[i].classList.toggle('open');
   }
 })
+
+
+// MODAL
+
+var modal = document.querySelector(".modal");
+var modalOverlay = document.querySelector(".modal__overlay");
+var closeModal = document.querySelector(".close-modal");
+var openModal = document.querySelector("#open-modal");
+
+closeModal.addEventListener("click", function() {
+  modal.classList.toggle("closed");
+  modalOverlay.classList.toggle("closed");
+});
+
+openModal.addEventListener("click", function() {
+  modal.classList.toggle("closed");
+  modalOverlay.classList.toggle("closed");
+});
