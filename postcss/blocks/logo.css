@@ -1,9 +1,21 @@
 .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   @media (min-width: $tablet) {
+    justify-content: flex-start;
     width: 47.904%;
   }
   @media (min-width: $desktop) {
+    justify-content: center;
     order: 2;
+  }
+  &--footer {
+    display: none;
+    @media (min-width: $tablet) {
+      display: flex;
+      width: 33.3%
+    }
   }
 }
 .logo__link.menu__link {

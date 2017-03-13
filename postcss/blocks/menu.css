@@ -11,15 +11,20 @@
 
 
 .menu__item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 80px;
   border-bottom: 1px solid #ECECEC;
     @media (min-width: $tablet) {
-    border-bottom: none;
+      min-height: 89px;
+      border-bottom: none;
   }
 
   &--catalog {
     @media (min-width: $tablet) {
       position: absolute;
-      display: block;
+      justify-content: flex-start;
       width: 25%;
       left: 0;
       top: 80px;
@@ -32,7 +37,7 @@
    &--order {
     @media (min-width: $tablet) {
       position: absolute;
-      display: block;
+      justify-content: flex-start;
       width: 25%;
       left: 25%;
       top: 80px;
@@ -46,6 +51,8 @@
    &--search {
       @media (min-width: $tablet) {
         width: 12.425%;
+        border-left: 1px solid #ECECEC;
+        border-right: 1px solid #ECECEC;
       }
       @media (min-width: $desktop) {
         order: 3;
@@ -54,6 +61,7 @@
    &--cart {
       @media (min-width: $tablet) {
         width: 39.671%;
+        justify-content: flex-end;
       }
       @media (min-width: $desktop) {
         order: 4;
@@ -63,7 +71,8 @@
       display: none;
         @media (min-width: $desktop) {
           position: absolute;
-          display: block;
+          display: flex;
+          justify-content: flex-start;
           width: 16.6666667%;
           left: 0;
           top: 80px;
@@ -74,7 +83,7 @@
       display: none;
         @media (min-width: $desktop) {
           position: absolute;
-          display: block;
+          display: flex;
           width: 16.66666667%;
           left: 17%;
           top: 80px;
@@ -84,19 +93,24 @@
      display: none;
      @media (min-width: $tablet) {
        position: absolute;
-       display: block;
+       display: flex;
        right: 0;
        top: 80px;
      }
    }
   &--mobile {
-    @media (max-width: $mobile-only) {
-      display: none;
-    }
+    padding-left: 28%;
+      @media (min-width: $tablet) {
+        padding-left: 0;
+      }
+      @media (max-width: $mobile-only) {
+        display: none;
+      }
+
   }
 }
 .menu__item.open {
-  display: block;
+  display: flex;
 }
 .menu__list {
   margin: 0;
@@ -111,33 +125,23 @@
 }
 
 .menu__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 80px;
+  display: block;
   text-decoration: none;
   font-size: 17px;
   line-height: 24px;
   font-weight: $font-bold;
   color: $gray--darken;
   @media (min-width: $tablet) {
-    min-height: 89px;
     &--catalog,
     &--order {
-      justify-content: flex-start;
       font-size: 15px;
       color: $gray--dark;
       @media (min-width: $desktop) {
         font-size: 17px;
       }
     }
-    &--cart {
-      justify-content: flex-end;
-     }
     &--search {
        font-size: 0;
-       border-left: 1px solid #ECECEC;
-       border-right: 1px solid #ECECEC;
      }
     &--shipping {
        font-size: 15px;
@@ -149,9 +153,7 @@
     &--sale {
        font-size: 15px;
        }
-    &--new {
-       justify-content: flex-start;
-     }
+
      }
   }
 }

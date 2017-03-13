@@ -4,13 +4,21 @@
   background-repeat: no-repeat;
   background-position: center, center;
   &--search {
+     position: absolute;
+     left: calc(15% - 10px);
+     top: 30px;
      margin-right: 25px;
      background-image: url("../img/icon-search.svg");
      @media (min-width: $tablet) {
-       margin-right: 0;
+       position: static;
+       display: flex;
+       justify-content: center;
      }
    }
   &--cart {
+     position: absolute;
+     left: calc(15% - 10px);
+     top: 30px;
      margin-right: 25px;
      background-image: url("../img/icon-cart.svg");
      @media (min-width: $tablet) {
