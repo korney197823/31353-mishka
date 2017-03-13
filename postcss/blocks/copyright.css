@@ -7,9 +7,16 @@
   }
 }
 .copyright__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
+    @media (min-width: $tablet) {
+      justify-content: flex-end;
+}
 }
 .copyright__text {
+  margin-right: 30px;
   font-weight: $font-bold;
   font-style: normal;
   font-size: 19px;
