@@ -1,19 +1,60 @@
 .article {
   padding-top: 30px;
   padding-bottom: 30px;
+    @media (min-width: $desktop) {
+      padding-top: 70px;
+    }
+}
+.article__wrap {
+  position: relative;
+}
+.article__content-wrap {
+  @media (min-width: $tablet) {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  @media (min-width: $desktop) {
+    padding-top: 160px;
+    padding-left: 175px;
+  }
 }
 
 .article__title {
   margin: 0;
   font-size: 25px;
   line-height: 30px;
-  i {
+  &--week {
     display: block;
     text-transform: uppercase;
     font-style: normal;
     font-size: 17px;
     line-height: 20px;
     color: $color-main;
+      @media (min-width: $tablet) {
+        width: 80px;
+        margin-left: 45px;
+        margin-right: 45px;
+        text-align: center;
+        line-height: 17px;
+      }
+  }
+  @media (min-width: $tablet) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px;
+    padding-right: 25px;
+    font-size: 43px;
+    line-height: 50px;
+  }
+  @media (min-width: $desktop) {
+    position: absolute;
+    flex-direction: row-reverse;
+    top: 50px;
+    font-size: 53px;
+    line-height: 57px;
+    z-index: 200;
   }
 }
 
@@ -22,6 +63,13 @@
   margin-bottom: 25px;
   font-size: 15PX;
   line-height: 24px;
+    @media (min-width: $tablet) {
+      width: 43%;
+      margin-top: 0;
+    }
+    @media (min-width: $desktop) {
+      width: 30%;
+    }
 }
 .article__table {
   width: 100%;
@@ -32,14 +80,41 @@
     border-collapse: collapse;
     border-bottom: 1px solid #ECECEC;
   }
+    @media (min-width: $tablet) {
+      width: 43%;
+    }
+    @media (min-width: $desktop) {
+      width: 30%;
+    }
+}
+.article__img-wrap {
+  @media (min-width: $tablet) {
+    position: absolute;
+    width: 50%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow: hidden
+  }
 }
 .article__img {
   display: block;
   margin: 0 auto;
+    @media (min-width: $tablet) {
+      width: 100%;
+
+
+    }
 }
 .article__price {
   text-align: center;
   font-size: 17px;
   line-height: 24px;
   font-weight: $font-bold;
+    @media (min-width: $tablet) {
+      width: 43%;
+    }
+    @media (min-width: $desktop) {
+      width: 30%;
+    }
 }

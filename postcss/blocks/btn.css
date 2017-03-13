@@ -11,6 +11,14 @@
   color: $gray--dark;
   outline: none;
   cursor: pointer;
+  &--article {
+    @media (min-width: $tablet) {
+      width: 43%;
+    }
+    @media (min-width: $desktop) {
+      width: 30%;
+    }
+   }
   &--review {
     @media (min-width: $tablet) {
       position: absolute;
