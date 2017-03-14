@@ -19,6 +19,12 @@
      padding-top: 0;
      background-image: none;
      background-color: #F1F1F1;
+       @media (min-width: $tablet) {
+         min-height: 225px;
+       }
+       @@media (min-width: $desktop) {
+         min-height: 254px;
+       }
    }
 }
 .promo__title {

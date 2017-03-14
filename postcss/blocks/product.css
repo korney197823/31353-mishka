@@ -1,4 +1,16 @@
 .product {
   padding-top: 30px;
   padding-bottom: 30px;
+    @media (min-width: $tablet) {
+      padding-top: 80px;
+  }
+    @media (min-width: $desktop) {
+      padding-top: 130px;
+    }
+}
+.product__wrap {
+  @media (min-width: $desktop) {
+    display: flex;
+    justify-content: space-between;
+  }
 }
