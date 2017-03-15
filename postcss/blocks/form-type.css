@@ -1,4 +1,11 @@
-
+.form-type {
+  @media (min-width: $tablet) {
+    width: 75%;
+  }
+  @media (min-width: $desktop) {
+    width: 83.3%;
+  }
+}
 .form-type__input {
   display: none;
 }

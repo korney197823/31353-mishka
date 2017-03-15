@@ -1,4 +1,7 @@
 .form-group {
+  @media (min-width: $tablet) {
+    display: flex;
+  }
   label {
     font-size: 17px;
     font-weight: $font-bold;
@@ -12,4 +15,10 @@
   font-weight: $font-bold;
   line-height: 16px;
   color: $color-main;
+    @media (min-width: $tablet) {
+      width: 25%;
+  }
+    @media (min-width: $desktop) {
+      width: 16.7%;
+    }
 }
