@@ -1,5 +1,32 @@
 .logo {
-  width: 86px;
-  height: 35px;
-  margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  @media (min-width: $tablet) {
+    justify-content: flex-start;
+    width: 47.904%;
+  }
+  @media (min-width: $desktop) {
+    justify-content: center;
+    order: 2;
+  }
+  &--footer {
+    display: none;
+      @media (min-width: $tablet) {
+        display: flex;
+        width: 33.3%
+      }
+      @media (min-width: $desktop) {
+        order: 0;
+        justify-content: flex-start;  
+      }
+    }
+}
+.logo__link.menu__link {
+  @media (min-width: $tablet) {
+    justify-content: flex-start;
+  }
+  @media (min-width: $desktop) {
+    justify-content: center;
+  }
 }

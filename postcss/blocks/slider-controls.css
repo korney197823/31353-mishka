@@ -1,16 +1,30 @@
 .slider-controls {
+  margin-bottom: 38px;
   display: flex;
+    @media (min-width: $tablet) {
+      position: absolute;
+      width: 167px;
+      right: 0;
+      bottom: 45px;
+    }
+    @media (min-width: $desktop) {
+      bottom: 95px;
+    }
 }
 
 .slider-controls__arrow {
   height: 52px;
   width: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url('../img/icon-left-arrow.svg');
   border: 1px solid #ECECEC;
   font-size: 17px;
-  line-height: 30;
+  line-height: 30px;
   color: $gray--dark;
   &--next {
      border-left-color: transparent;
+     background-image: url('../img/icon-right-arrow.svg');
    }
 }
 

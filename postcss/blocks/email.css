@@ -2,12 +2,21 @@
   display: flex;
   margin-bottom: 35px;
   color: $gray--dark;
+    @media (min-width: $tablet) {
+      width: 50%;
+    }
+    @media (min-width: $desktop) {
+      width: 100%;
+    }
 }
 .email__title {
   margin: 0;
   margin-right: 24px;
   font-size: 15px;
   line-height: 30px;
+    @media (min-width: $tablet) {
+      font-size: 17px;
+    }
 }
 .email__address {
   border-bottom: 1px solid $color-main;
@@ -15,4 +24,7 @@
   font-size: 15px;
   line-height: 30px;
   color: inherit;
+    @media (min-width: $tablet) {
+      font-size: 17px;
+    }
 }

@@ -1,7 +1,27 @@
 .location {
   margin-bottom: 40px;
+    @media (min-width: $desktop) {
+      padding-top: 95px;
+    }
+}
+.location__wrap {
+  @media (min-width: $desktop) {
+    position: relative;
+    width: 1050px;
+    margin: 0 auto;
+    padding-left: 175px;
+  }
 }
 .location-btn__wrap {
   padding-left: 30px;
   padding-right: 30px;
+    @media (min-width: $tablet) {
+      display: flex;
+      justify-content: center;
+    }
+    @media (min-width: $desktop) {
+      width: 30%;
+      padding-left: 0;
+      padding-right: 0;
+    }
 }

@@ -1,3 +1,17 @@
 .map {
   margin-bottom: 40px;
+    @media (min-width: $desktop) {
+      position: absolute;
+      width: 50%;
+      height: 100%;
+      top: 0;
+      right: 0;
+      margin-bottom: 0;
+      overflow: hidden;
+    }
+  img {
+    @media (min-width: $desktop) {
+      width: 100%;
+    }
+  }
 }

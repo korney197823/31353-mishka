@@ -2,12 +2,34 @@
 .container {
   padding-left: 30px;
   padding-right: 30px;
+  @media (min-width: $tablet) {
+    width: 668px;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  @media (min-width: $desktop) {
+    width: 1050px;
+  }
 }
 .row {
   &--header {
-     padding: 20px 30px;
+     min-height: 80px;
+       @media (min-width: $tablet) {
+         min-height: 89px;
+       }
    }
+  &--banner {
+     @media (min-width: $tablet) {
+       width: 668px;
+       margin: 0 auto;
+       display: flex;
+     }
+     @media (min-width: $desktop) {
+       width: 1050px;
+     }
 
+   }
   &--modal {
      display: flex;
      justify-content: space-between;

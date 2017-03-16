@@ -4,18 +4,72 @@
   color: $gray--darken;
   font-weight: $font-bold;
 }
+.features__wrap {
+  @media (min-width: $desktop) {
+    width: 700px;
+  }
+}
 .features__title {
   font-size: 25px;
   line-height: 30px;
+    @media (min-width: $tablet) {
+      font-size: 43px;
+      line-height: 50px;
+    }
+    @media (min-width: $desktop) {
+      font-size: 53px;
+      line-height: 57px;
+    }
 }
 .features__list {
   padding: 0;
   list-style-type: none;
+    @media (min-width: $tablet) {
+      display: flex;
+      flex-wrap: wrap;
+    }
 }
 .features__item {
   padding-top: 38px;
+    @media (min-width: $tablet) {
+      width: 50%;
+   }
+  &--clean {
+     @media (min-width: $tablet) {
+       order: 0;
+     }
+   }
+  &--style {
+     @media (min-width: $tablet) {
+       order: 2;
+     }
+   }
+  &--likes {
+     @media (min-width: $tablet) {
+       order: 4;
+     }
+   }
+  &--hand {
+     @media (min-width: $tablet) {
+       order: 1;
+     }
+   }
+  &--production {
+     @media (min-width: $tablet) {
+       order: 3;
+     }
+   }
+  &--gift {
+     @media (min-width: $tablet) {
+       order: 5;
+     }
+   }
 }
 .features__text {
   font-size: 17px;
   line-height: 20px;
+    @media (min-width: $tablet) {
+      font-size: 20px;
+      line-height: 22px;
+    }
 }

@@ -11,10 +11,36 @@
   color: $gray--dark;
   outline: none;
   cursor: pointer;
+  &--article {
+    @media (min-width: $tablet) {
+      width: 43%;
+    }
+    @media (min-width: $desktop) {
+      width: 30%;
+    }
+   }
+  &--review {
+    @media (min-width: $tablet) {
+      position: absolute;
+      width: 175px;
+      right: 0;
+      top: 80px;
+    }
+   }
+  &--location {
+    @media (min-width: $tablet) {
+      width: 230px;
+    }
+   }
   &--modal {
      margin-top: 30px;
      background-color: $color-main;
      border: none;
      color: #ffffff;
+   }
+  &--order {
+     @media (min-width: $tablet) {
+       width: 230px;
+     }
    }
 }

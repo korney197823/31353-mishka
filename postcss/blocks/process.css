@@ -1,6 +1,17 @@
 .process {
   margin-bottom: 58px;
 }
+.process__wrap {
+  @media (min-width: $tablet) {
+    display: flex;
+    flex-direction: column;
+  }
+  @media (min-width: $desktop) {
+    flex-wrap: wrap;
+    height: 455px;
+    justify-content: space-between;
+  }
+}
 .process__title {
   margin: 0;
   padding-top: 30px;
@@ -10,15 +21,39 @@
   border-bottom-color: transparent;
   font-size: 17px;
   line-height: 24px;
-
+    @media (min-width: $tablet) {
+      order: 1;
+      font-size: 20px;
+    }
+    @media (min-width: $desktop) {
+      width: 370px;
+    }
 }
 .process__discription {
   padding: 30px;
   border: 1px solid #ECECEC;
   border-top-color: transparent;
+    @media (min-width: $tablet) {
+      order: 2;
+      padding-left: 42px;
+      padding-right: 42px;
+      padding-bottom: 45px;
+    }
+    @media (min-width: $desktop) {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 370px;
+      flex-grow: 2;
+    }
 }
 .process__text {
   font-size: 13px;
   line-height: 24px;
   color: $gray--dark;
+    @media (min-width: $tablet) {
+      order: 1;
+      margin-bottom: 35px;
+      font-size: 15px;
+}
 }

@@ -1,5 +1,24 @@
-
-
+.form-color {
+  @media (min-width: $tablet) {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+  }
+  @media (min-width: $desktop) {
+    width: 83.3%;
+  }
+}
+.form-color__item {
+  @media (min-width: $tablet) {
+    display: flex;
+    flex-wrap: wrap;
+    width: 43.9%;
+    justify-content: space-between;
+  }
+  @media (min-width: $desktop) {
+    width: 30%;
+  }
+}
 .form-color__input {
   display: none;
 }

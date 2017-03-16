@@ -1,11 +1,24 @@
 .copyright {
   padding-top: 20px;
   padding-bottom: 20px;
-  i {
-    font-weight: $font-bold;
-    font-style: normal;
-    font-size: 19px;
-    line-height: 18px;
+  font-size: 0;
+  @media (min-width: $tablet) {
+    width: 33.3%
   }
 }
-
+.copyright__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+    @media (min-width: $tablet) {
+      justify-content: flex-end;
+}
+}
+.copyright__text {
+  margin-right: 30px;
+  font-weight: $font-bold;
+  font-style: normal;
+  font-size: 19px;
+  line-height: 18px;
+}

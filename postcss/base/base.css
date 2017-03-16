@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-size: 16;
+  font-size: 16px;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -15,3 +15,9 @@ video {
   display: block;
   max-width: 100%;
 }
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
