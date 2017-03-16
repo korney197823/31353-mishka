@@ -22,7 +22,7 @@
        @media (min-width: $tablet) {
          min-height: 225px;
        }
-       @@media (min-width: $desktop) {
+       @media (min-width: $desktop) {
          min-height: 254px;
        }
    }
