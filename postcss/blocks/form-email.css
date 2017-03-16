@@ -15,4 +15,5 @@
   border: none;
   border-bottom: 2px solid $gray--darken;
   outline: none;
+  background-color: inherit;
 }

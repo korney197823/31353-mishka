@@ -22,8 +22,22 @@
       width: 66.67%;
     }
 }
+.form-order__btn-wrap {
+  @media (min-width: $tablet) {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+    margin-top: 50px;
+  }
+}
 .form-order__require {
   font-size: 14px;
   line-height: 16px;
   color: $gray--dark;
+    @media (min-width: $tablet) {
+      font-size: 17px;
+      line-height: 30px;
+    }
 }

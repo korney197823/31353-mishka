@@ -38,4 +38,9 @@
      border: none;
      color: #ffffff;
    }
+  &--order {
+     @media (min-width: $tablet) {
+       width: 230px;
+     }
+   }
 }
