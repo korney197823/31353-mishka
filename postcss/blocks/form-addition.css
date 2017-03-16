@@ -1,6 +1,15 @@
+.form-addition {
+  @media (min-width: $tablet) {
+    width: 75%;
+  }
+  @media (min-width: $desktop) {
+    width: 66.67%;
+  }
+}
 .form-addition__input {
   width: 100%;
   min-height: 142px;
   border: 2px solid $gray--darken;
   resize: none;
+
 }
