@@ -52,13 +52,16 @@
 <main class="content">
 
   <form action="https://echo.htmlacademy.ru/" method="post" class="form-order">
+
     <div class="container">
       <p class="form-order__text">
         Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую
         форму заказа и мы
         свяжемся с вами, чтобы уточнить детали.
       </p>
-      <div class="form-group">
+    </div>
+    <div class="form-group">
+      <div class="form-group__wrap container">
         <h2 class="form-group__title">Тип</h2>
 
         <div class="form-type">
@@ -69,8 +72,10 @@
           <label class="form-type__radio" for="toys">Детская игрушка</label>
         </div>
       </div>
+    </div>
 
-      <div class="form-group">
+    <div class="form-group">
+      <div class="form-group__wrap container">
         <h2 class="form-group__title">Цвет</h2>
 
         <div class="form-color">
@@ -92,7 +97,7 @@
           </div>
           <div class="form-color__item">
             <input class="form-color__input" id="pink" type="checkbox" name="pink">
-          <label class="form-color__checkbox" for="pink">Розовый</label  >
+            <label class="form-color__checkbox" for="pink">Розовый</label>
           </div>
           <div class="form-color__item">
             <input class="form-color__input" id="orange" type="checkbox" name="orange">
@@ -100,23 +105,35 @@
           </div>
         </div>
       </div>
+    </div>
 
-      <div class="form-group">
+    <div class="form-group">
+      <div class="form-group__wrap container">
         <h2 class="form-group__title">ФИО</h2>
 
         <div class="form-name">
-          <label class="form-name__title" for="name">Имя:</label>
-          <input class="form-name__input" id="name" type="text" name="name" placeholder="Введите ваше имя*" required>
+          <div class="form-name__item">
+            <label class="form-name__title" for="name">Имя:</label>
+            <input class="form-name__input" id="name" type="text" name="name" placeholder="Введите ваше имя*" required>
+          </div>
 
-          <label class="form-name__title" for="lastname">Фамилия:</label>
-          <input class="form-name__input" id="lastname" type="text" name="lastname" placeholder="Укажите фамилию" required>
+          <div class="form-name__item">
+            <label class="form-name__title" for="lastname">Фамилия:</label>
+            <input class="form-name__input" id="lastname" type="text" name="lastname" placeholder="Укажите фамилию"
+                 required>
+          </div>
 
-          <label class="form-name__title" for="middlename">Отчество</label>
-          <input class="form-name__input" id="middlename" type="text" name="middlename" placeholder="Отчество, если желаете">
+         <div class="form-name__item">
+           <label class="form-name__title" for="middlename">Отчество</label>
+           <input class="form-name__input" id="middlename" type="text" name="middlename"
+                 placeholder="Отчество, если желаете">
+         </div>
         </div>
       </div>
+    </div>
 
-      <div class="form-group">
+    <div class="form-group">
+      <div class="form-group__wrap container">
         <h2 class="form-group__title">Тел</h2>
         <div class="form-tel">
           <input class="form-tel__input" type="tel" name="tel" placeholder="+7 XXX XX XX*" required>
@@ -126,16 +143,23 @@
           <input class="form-email__input" type="email" name="email" placeholder="Ваш Email" required>
         </div>
       </div>
+    </div>
 
-      <div class="form-group">
+    <div class="form-group">
+      <div class="form-group__wrap container">
         <h2 class="form-group__title">Доп</h2>
         <div class="form-addition">
-          <textarea class="form-addition__input" type="text" name="text" placeholder="Опишите все ваши пожелания к заказу"></textarea>
+        <textarea class="form-addition__input" type="text" name="text"
+                  placeholder="Опишите все ваши пожелания к заказу"></textarea>
         </div>
       </div>
+    </div>
+    <div class="form-group">
+      <div class="form-group__wrap container">
       <p class="form-order__require">*Поля обязательные для заполнения</p>
       <button class="btn" type="submit">Отправить заказ</button>
     </div>
+
   </form>
 </main>
 <footer class="footer">

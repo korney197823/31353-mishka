@@ -1,4 +1,12 @@
 .form-group {
+  &:nth-of-type(odd) {
+    @media (min-width: $tablet) {
+      background-color: #F1F1F1;
+    }
+  }
+}
+
+.form-group__wrap {
   @media (min-width: $tablet) {
     display: flex;
   }
@@ -6,6 +14,9 @@
     font-size: 17px;
     font-weight: $font-bold;
     line-height: 18px;
+      @media (min-width: $tablet) {
+        font-size: 19px;
+      }
   }
 }
 

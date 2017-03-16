@@ -10,12 +10,11 @@
 }
 .form-order__text {
   margin: 0 auto;
-  margin-bottom: 25px;
   font-size: 13px;
   line-height: 24px;
   color: $gray--dark;
     @media (min-width: $tablet) {
-      margin-bottom: 50px;
+
       font-size: 17px;
       line-height: 30px;
     }
