@@ -10,7 +10,7 @@
 }
 .address__title {
   margin: 0;
-  margin-right: 24px;
+  margin-right: 33px;
   font-size: 15px;
   line-height: 30px;
     @media (min-width: $tablet) {
@@ -19,6 +19,7 @@
 }
 .address__text {
   margin: 0;
+  padding-right: 25px;
   font-size: 15px;
   line-height: 30px;
     @media (min-width: $tablet) {

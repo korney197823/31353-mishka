@@ -1,6 +1,6 @@
 .copyright {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 28px;
+  padding-bottom: 28px;
   font-size: 0;
   @media (min-width: $tablet) {
     width: 33.3%
@@ -21,4 +21,5 @@
   font-style: normal;
   font-size: 19px;
   line-height: 18px;
+  color: #000;
 }

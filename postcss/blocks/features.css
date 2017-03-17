@@ -1,5 +1,5 @@
 .features {
-  padding-top: 30px;
+  padding-top: 17px;
   padding-bottom: 30px;
   color: $gray--darken;
   font-weight: $font-bold;
@@ -30,7 +30,7 @@
     }
 }
 .features__item {
-  padding-top: 38px;
+  padding-top: 49px;
     @media (min-width: $tablet) {
       width: 50%;
    }

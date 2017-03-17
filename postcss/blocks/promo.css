@@ -11,7 +11,7 @@
   background-size: cover;
     @media (min-width: $tablet) {
       height: 743px;
-      padding-top: 160px;
+      padding-top: 154px;
     }
   &--simple {
      justify-content: center;
