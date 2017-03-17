@@ -2,6 +2,7 @@
   display: block;
   padding: 27px 30px;
   background-color: $color-main;
+  text-decoration: none;
   cursor: pointer;
     @media (min-width: $tablet) {
       flex-basis: 50%;
