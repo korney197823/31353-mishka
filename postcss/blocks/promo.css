@@ -32,8 +32,9 @@
   padding: 0 30px;
   text-align: center;
   font-size: 27px;
+  font-family: $font-family-bold;
+  font-weight: bold;
   line-height: 30px;
-  font-weight: $font-bold;
     @media (min-width: $tablet) {
       width: 80%;
       margin: 0 auto;
