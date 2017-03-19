@@ -22,4 +22,18 @@
   height: 76px;
   left: calc(50% - 50px);
   top: calc(50% - 38px);
+  padding: 0;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+  outline: none;
+  z-index: 1000;
+  transition: transform 0.3s;
+  &:hover {
+      transform: scale(1.25);
+   }
+  &:active {
+      transform: scale(0.8);
+      opacity: 0.3;
+   }
 }
