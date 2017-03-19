@@ -13,18 +13,25 @@
 }
 
 .slider-controls__arrow {
+  display: flex;
+  justify-content: center;
   height: 52px;
   width: 50%;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-image: url('../img/icon-left-arrow.svg');
+  background-color: #ffffff;
   border: 1px solid #ECECEC;
   font-size: 17px;
   line-height: 30px;
   color: $gray--dark;
+  outline: none;
+  cursor: pointer;
+  &:hover {
+      fill: #666666;
+   }
+  &:active {
+      fill: #B2B2B2;
+   }
   &--next {
      border-left-color: transparent;
-     background-image: url('../img/icon-right-arrow.svg');
    }
 }
 

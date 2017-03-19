@@ -11,9 +11,16 @@
   color: $gray--dark;
   outline: none;
   cursor: pointer;
+  &:hover {
+     background-color: #444444;
+     color: #ffffff;
+   }
+  &:active {
+     color: #8D8D8D;
+   }
   &--article {
     @media (min-width: $tablet) {
-      width: 43%;
+      width: 44%;
     }
     @media (min-width: $desktop) {
       width: 30%;

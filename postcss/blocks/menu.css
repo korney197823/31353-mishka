@@ -135,6 +135,13 @@
   line-height: 24px;
   font-weight: $font-bold;
   color: $gray--darken;
+  &:hover {
+      color: #8D8D8D;
+   }
+
+  &:active {
+      color: #CACACA;
+   }
   @media (min-width: $tablet) {
     &--catalog,
     &--order {
@@ -175,11 +182,12 @@
   background-repeat: no-repeat;
   background-position: center;
   background-color: inherit;
+  background-image: url(../img/icon-menu-open.svg);
   cursor: pointer;
   outline: none;
-&--open {
-   background-image: url(../img/icon-menu-open.svg);
- }
+  &--close {
+   background-image: url(../img/icon-menu-close.svg);
+  }
 @media (min-width: $tablet) {
   display: none;
 }

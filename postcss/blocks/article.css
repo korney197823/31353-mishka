@@ -1,6 +1,10 @@
 .article {
   padding-top: 27px;
   padding-bottom: 30px;
+    @media (min-width: $tablet) {
+      padding-top: 48px;
+      padding-bottom: 53px;
+    }
     @media (min-width: $desktop) {
       padding-top: 70px;
     }
@@ -33,9 +37,8 @@
     line-height: 20px;
     color: $color-main;
       @media (min-width: $tablet) {
-        width: 80px;
-        margin-left: 45px;
-        margin-right: 45px;
+        width: 70px;
+        margin-right: 27px;
         text-align: center;
         line-height: 17px;
       }
@@ -44,8 +47,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 55px;
-    padding-right: 25px;
+    margin-bottom: 58px;
     font-size: 43px;
     line-height: 50px;
   }
@@ -62,11 +64,14 @@
 .article__text {
   margin-top: 23px;
   margin-bottom: 16px;
-  font-size: 15PX;
+  font-size: 15px;
   line-height: 24px;
     @media (min-width: $tablet) {
       width: 43%;
-      margin-top: 0;
+      margin-top: -9px;
+      margin-bottom: 33px;
+      font-size: 17px;
+      line-height: 30px;
     }
     @media (min-width: $desktop) {
       width: 30%;
@@ -82,6 +87,9 @@
     border-bottom: 1px solid #ECECEC;
       &:last-of-type {
          padding-left: 9px;
+           @media (min-width: $tablet) {
+             padding-left: 0;
+           }
        }
   }
     @media (min-width: $tablet) {
@@ -118,7 +126,10 @@
   line-height: 24px;
   font-weight: $font-bold;
     @media (min-width: $tablet) {
-      width: 43%;
+      width: 45%;
+      margin-top: 30px;
+      margin-bottom: 32px;
+      font-size: 20px;
     }
     @media (min-width: $desktop) {
       width: 30%;

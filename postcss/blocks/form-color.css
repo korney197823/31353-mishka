@@ -31,6 +31,16 @@
   padding-bottom: 11px;
   padding-left: 64px;
   cursor: pointer;
+  &:hover {
+    &:before {
+      border-color: $color-main;
+    }
+  }
+  &:active {
+    &:before {
+      border-color: #C4C4C4;
+     }
+   }
   &:before {
      position: absolute;
      content: '';

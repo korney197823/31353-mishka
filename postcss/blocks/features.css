@@ -3,6 +3,9 @@
   padding-bottom: 30px;
   color: $gray--darken;
   font-weight: $font-bold;
+    @media (min-width: $tablet) {
+      padding-top: 28px;
+    }
 }
 .features__wrap {
   @media (min-width: $desktop) {
@@ -72,4 +75,9 @@
       font-size: 20px;
       line-height: 22px;
     }
+}
+.features__icon {
+  svg {
+    fill: $color-main;
+  }
 }

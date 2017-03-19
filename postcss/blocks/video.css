@@ -1,4 +1,5 @@
 .video__wrap {
+  position: relative;
   outline: 1px solid darkgreen;
   @media (min-width: $tablet) {
     order: 0;
@@ -14,4 +15,11 @@
   @media (min-width: $tablet) {
 
 }
+}
+.video__icon {
+  position: absolute;
+  width: 100px;
+  height: 76px;
+  left: calc(50% - 50px);
+  top: calc(50% - 38px);
 }

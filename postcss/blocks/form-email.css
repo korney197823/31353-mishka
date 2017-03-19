@@ -1,4 +1,5 @@
 .form-email {
+  position: relative;
   @media (min-width: $tablet) {
     width: 75%;
   }
@@ -12,8 +13,16 @@
   width: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-right: 40px;
   border: none;
   border-bottom: 2px solid $gray--darken;
   outline: none;
   background-color: inherit;
+}
+.form-email__icon {
+  position: absolute;
+  width: 32px;
+  height: 30px;
+  right: 7px;
+  top: calc(50% - 15px);
 }

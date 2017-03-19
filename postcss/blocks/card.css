@@ -25,10 +25,17 @@
 }
 
 .card__description {
+  display: block;
   padding-top: 25px;
   padding-left: 22px;
   padding-right: 22px;
   border: 1px solid #ECECEC;
+  &:hover {
+     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+   }
+  &:active {
+     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+   }
   @media (min-width: $tablet) {
     display: flex;
     flex-direction: column;
@@ -54,6 +61,8 @@
 }
 
 .card__price-wrap {
+  display: flex;
+  justify-content: space-between;
   padding-top: 20px;
   padding-bottom: 20px;
   border-top: 1px solid #ECECEC;

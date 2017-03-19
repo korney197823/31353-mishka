@@ -1,9 +1,16 @@
 .bunner {
-  display: block;
+  display: flex;
+  justify-content: space-between;
   padding: 28px 30px;
   background-color: $color-main;
   text-decoration: none;
   cursor: pointer;
+  &:hover {
+     background-color: #59D5BC;
+   }
+  &:active .bunner__title{
+     color: #97E2D2;
+   }
     @media (min-width: $tablet) {
       flex-basis: 50%;
       padding-left: 36px;
@@ -13,6 +20,12 @@
     }
   &--dark {
      background-color: $color-main--dark;
+     &:hover {
+        background-color: #46C1AE;
+      }
+     &active .bunner__title {
+        color: #8DD5C9;
+      }
    }
 }
 .bunner__title {

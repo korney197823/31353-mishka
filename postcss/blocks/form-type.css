@@ -17,6 +17,17 @@
   padding-bottom: 11px;
   padding-left: 64px;
   cursor: pointer;
+  &:hover {
+    &:before {
+       border-color: $color-main;
+     }
+  }
+  &:active {
+    &:before {
+      border-color: #C4C4C4;
+    }
+  }
+
   &:before {
     position: absolute;
     content: '';
@@ -25,7 +36,7 @@
     top: 0;
     left: 0;
     border: 2px solid $gray--dark;
-  border-radius: 50%;
+    border-radius: 50%;
   }
 }
 .form-type__input:checked + .form-type__radio {

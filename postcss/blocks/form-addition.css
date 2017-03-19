@@ -13,4 +13,8 @@
   border: 2px solid $gray--darken;
   resize: none;
   outline: none;
+  &:hover,
+  &:focus {
+     border-color: #63D1BB;
+   }
 }
