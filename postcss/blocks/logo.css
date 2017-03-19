@@ -24,6 +24,12 @@
     }
 }
 .logo__link {
+  &:hover {
+     fill: #666666;
+   }
+  &:active {
+     fill: #b2b2b2;
+   }
   &--footer {
      &:hover {
         fill: $color-main--darken;
@@ -34,6 +40,7 @@
    }
 }
 .logo__link.menu__link {
+
   @media (min-width: $tablet) {
     justify-content: flex-start;
   }
