@@ -17,6 +17,12 @@
   border-bottom: 2px solid $gray--darken;
   outline: none;
   background-color: inherit;
+  &:hover + .form-tel__icon {
+     fill: $color-main;
+   }
+  &:focus + .form-tel__icon {
+     fill: $color-main;
+   }
 }
 .form-tel__icon {
   position: absolute;
@@ -25,4 +31,5 @@
   right: 7px;
   top: calc(50% - 15px);
   fill: #cccccc;
+
 }
