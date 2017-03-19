@@ -1,4 +1,5 @@
 .form-addition {
+  margin-top: 25px;
   @media (min-width: $tablet) {
     width: 75%;
   }

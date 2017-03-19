@@ -1,6 +1,6 @@
 .form-order {
   margin-bottom: 55px;
-  padding-top: 25px;
+  padding-top: 23px;
     @media (min-width: $tablet) {
       padding-top: 75px;
     }
@@ -10,6 +10,7 @@
 }
 .form-order__text {
   margin: 0 auto;
+  margin-bottom: 23px;
   font-size: 13px;
   line-height: 24px;
   color: $gray--dark;
@@ -33,6 +34,7 @@
   }
 }
 .form-order__require {
+  margin-bottom: 29px;
   font-size: 14px;
   line-height: 16px;
   color: $gray--dark;
