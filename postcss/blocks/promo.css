@@ -13,6 +13,9 @@
       height: 743px;
       padding-top: 154px;
     }
+    @media (min-width: $desktop) {
+      padding-top: 141px;
+    }
   &--simple {
      justify-content: center;
      height: 177px;
@@ -50,5 +53,8 @@
   &--simple {
      padding-left: 0;
      padding-right: 0;
+     @media (min-width: $desktop) {
+       padding-top: 0;
+     }
    }
 }

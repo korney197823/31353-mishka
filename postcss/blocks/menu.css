@@ -32,6 +32,7 @@
      }
     @media (min-width: $desktop) {
       position: static;
+      width: 17.619%;
       border-right: 1px solid #ECECEC;
     }
    }
@@ -46,7 +47,9 @@
      }
     @media (min-width: $desktop) {
       position:static;
+      width: 21.523%;
       order: 1;
+      justify-content: center;
     }
    }
 
@@ -58,6 +61,7 @@
         border-right: 1px solid #ECECEC;
       }
       @media (min-width: $desktop) {
+        width: 8%;
         order: 3;
       }
     }
@@ -67,6 +71,7 @@
         justify-content: flex-end;
       }
       @media (min-width: $desktop) {
+        width: 25.33%;
         order: 4;
       }
   }
@@ -87,10 +92,12 @@
         @media (min-width: $desktop) {
           position: absolute;
           display: flex;
+          justify-content: center;
           width: 16.66666667%;
           left: 17%;
           top: 80px;
         }
+
     }
    &--shipping {
      display: none;

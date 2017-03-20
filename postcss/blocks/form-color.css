@@ -13,6 +13,8 @@
   }
   @media (min-width: $desktop) {
     width: 83.3%;
+    padding-top: 46px;
+    padding-right: 125px;
   }
 }
 .form-color__item {

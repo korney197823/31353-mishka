@@ -52,6 +52,8 @@
   }
     @media (min-width: $desktop) {
       width: 16.7%;
+      padding-top: 65px;
+      text-align: center;
     }
   &--email {
     @media (min-width: $tablet) {

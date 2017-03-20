@@ -6,7 +6,7 @@
       padding-top: 72px;
     }
     @media (min-width: $desktop) {
-      padding-top: 115px
+      padding-top: 127px
     }
 }
 .form-order__text {
@@ -32,6 +32,11 @@
     align-items: baseline;
     width: 100%;
     margin-top: 42px;
+  }
+  @media (min-width: $desktop) {
+    margin-left: 16.7%;
+    margin-top: 37px;
+    width: 66.67%;
   }
 }
 .form-order__require {
