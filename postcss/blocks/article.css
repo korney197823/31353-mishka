@@ -1,6 +1,6 @@
 .article {
-  padding-top: 27px;
-  padding-bottom: 30px;
+  padding-top: 26px;
+  padding-bottom: 32px;
     @media (min-width: $tablet) {
       padding-top: 48px;
       padding-bottom: 53px;

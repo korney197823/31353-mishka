@@ -1,7 +1,11 @@
 .bunner {
   display: flex;
   justify-content: space-between;
-  padding: 28px 30px;
+  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 22px;
+  padding-left: 30px;
+  padding-right: 35px;
   background-color: $color-main;
   text-decoration: none;
   cursor: pointer;
@@ -13,12 +17,15 @@
    }
     @media (min-width: $tablet) {
       flex-basis: 50%;
+      padding-top: 28px;
+      padding-bottom: 28px;
       padding-left: 36px;
     }
     @media (min-width: $desktop) {
       padding: 30px 30px;
     }
   &--dark {
+     padding-right: 26px;
      background-color: $color-main--dark;
      &:hover {
         background-color: #46C1AE;
@@ -42,4 +49,7 @@
     @media (min-width: $desktop) {
       width: 30%;
     }
+}
+.bunner__icon {
+  height: 65px;
 }
