@@ -19,15 +19,15 @@
      fill: #C1E0DA;
    }
   &--instagram {
-    margin-right: 27px;
+    margin-right: 40px;
     @media (min-width: $tablet) {
-      margin-right: 40px;
+
     }
   }
   &--facebook {
-    margin-right: 27px;
+    margin-right: 40px;
     @media (min-width: $tablet) {
-      margin-right: 40px;
+
     }
   }
   &--twitter {

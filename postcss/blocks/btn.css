@@ -27,6 +27,7 @@
     }
    }
   &--review {
+     font-size: 18px;
     @media (min-width: $tablet) {
       position: absolute;
       width: 175px;
@@ -35,6 +36,7 @@
     }
    }
   &--location {
+   font-size: 18px;
     @media (min-width: $tablet) {
       width: 230px;
     }
