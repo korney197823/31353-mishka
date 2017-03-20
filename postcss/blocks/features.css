@@ -14,6 +14,7 @@
 }
 .features__title {
   margin-top: 22px;
+  margin-bottom: 31px;
   font-size: 25px;
   line-height: 30px;
     @media (min-width: $tablet) {
@@ -26,6 +27,7 @@
     }
 }
 .features__list {
+  margin: 0;
   padding: 0;
   list-style-type: none;
     @media (min-width: $tablet) {
@@ -34,7 +36,8 @@
     }
 }
 .features__item {
-
+  position: relative;
+  margin-bottom: 28px;
     @media (min-width: $tablet) {
       width: 50%;
    }
@@ -80,6 +83,30 @@
     }
 }
 .features__icon {
+  position: absolute;
+  &--clean {
+     left: 10px;
+   }
+  &--style {
+     left: 1px;
+     top: 2px;
+   }
+  &--likes {
+     left: 9px;
+     top: 6px;
+   }
+  &--hand {
+     left: 5px;
+     top: 4px;
+   }
+  &--production {
+     left: -6px;
+     top: 5px;
+   }
+  &--gift {
+     left: 4px;
+     top: 3px;
+   }
   svg {
     fill: $color-main;
   }
