@@ -3,6 +3,7 @@
   margin-bottom: 32px;
   @media (min-width: $tablet) {
     width: 75%;
+    margin-bottom: 49px;
   }
   @media (min-width: $desktop) {
     width: 66.67%;
@@ -19,7 +20,9 @@
   border-bottom: 2px solid $gray--darken;
   outline: none;
   background-color: inherit;
-
+  @media (min-width: $tablet) {
+    padding-right: 60px;
+  }
   &:hover + .form-email__icon {
      fill: $color-main;
    }
@@ -40,4 +43,7 @@
   right: 5px;
   top: calc(50% - 12px);
   fill: #CCCCCC;
+  @media (min-width: $tablet) {
+    right: 21px;
+  }
 }

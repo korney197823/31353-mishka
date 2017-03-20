@@ -2,6 +2,7 @@
   margin-top: 25px;
   @media (min-width: $tablet) {
     width: 75%;
+    margin-top: 51px;
   }
   @media (min-width: $desktop) {
     width: 66.67%;

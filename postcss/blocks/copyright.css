@@ -3,6 +3,9 @@
   padding-bottom: 28px;
   font-size: 0;
   @media (min-width: $tablet) {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
     width: 33.3%
   }
 }
