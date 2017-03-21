@@ -1,10 +1,11 @@
 
 /*FONTS*/
 
-$font-family: 'Open Sans', Arial, sans-serif;
-
+$font-family: 'Open Sans', sans-serif;
+$font-family-bold: 'Open Sans Bold', sans-serif;
 $font-regular: 400;
 $font-bold: 700;
+
 
 
 /*COLORS*/
@@ -28,5 +29,3 @@ $color-main--darken:   #46C1AE;
 $mobile-only: 767px;
 $tablet: 768px;
 $desktop: 1150px;
-
-

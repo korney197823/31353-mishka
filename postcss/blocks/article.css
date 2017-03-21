@@ -1,8 +1,13 @@
 .article {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 26px;
+  padding-bottom: 32px;
+    @media (min-width: $tablet) {
+      padding-top: 48px;
+      padding-bottom: 53px;
+    }
     @media (min-width: $desktop) {
-      padding-top: 70px;
+      padding-top: 72px;
+      padding-bottom: 72px;
     }
 }
 .article__wrap {
@@ -15,7 +20,7 @@
     flex-direction: column;
   }
   @media (min-width: $desktop) {
-    padding-top: 160px;
+    padding-top: 168px;
     padding-left: 175px;
   }
 }
@@ -27,14 +32,14 @@
   &--week {
     display: block;
     text-transform: uppercase;
+    margin-top: 5px;
     font-style: normal;
     font-size: 17px;
     line-height: 20px;
     color: $color-main;
       @media (min-width: $tablet) {
-        width: 80px;
-        margin-left: 45px;
-        margin-right: 45px;
+        width: 70px;
+        margin-right: 27px;
         text-align: center;
         line-height: 17px;
       }
@@ -43,15 +48,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 55px;
-    padding-right: 25px;
+    margin-bottom: 58px;
     font-size: 43px;
     line-height: 50px;
   }
   @media (min-width: $desktop) {
     position: absolute;
     flex-direction: row-reverse;
-    top: 50px;
+    width: 650px;
+    top: 52px;
+    left: 46px;
     font-size: 53px;
     line-height: 57px;
     z-index: 200;
@@ -59,26 +65,36 @@
 }
 
 .article__text {
-  margin-top: 25px;
-  margin-bottom: 25px;
-  font-size: 15PX;
+  margin-top: 23px;
+  margin-bottom: 16px;
+  font-size: 15px;
   line-height: 24px;
     @media (min-width: $tablet) {
       width: 43%;
-      margin-top: 0;
+      margin-top: -9px;
+      margin-bottom: 37px;
+      font-size: 17px;
+      line-height: 30px;
     }
     @media (min-width: $desktop) {
-      width: 30%;
+      width: 34%;
+      margin-bottom: 47px;
     }
 }
 .article__table {
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 24px;
   td {
     padding-top: 10px;
     padding-bottom: 10px;
     border-collapse: collapse;
     border-bottom: 1px solid #ECECEC;
+      &:last-of-type {
+         padding-left: 9px;
+           @media (min-width: $tablet) {
+             padding-left: 0;
+           }
+       }
   }
     @media (min-width: $tablet) {
       width: 43%;
@@ -107,14 +123,21 @@
     }
 }
 .article__price {
+  margin-top: 25px;
+  margin-bottom: 25px;
   text-align: center;
   font-size: 17px;
   line-height: 24px;
   font-weight: $font-bold;
     @media (min-width: $tablet) {
-      width: 43%;
+      width: 45%;
+      margin-top: 35px;
+      margin-bottom: 32px;
+      font-size: 20px;
     }
     @media (min-width: $desktop) {
-      width: 30%;
+      margin-top: 85px;
+      margin-bottom: 31px;
+      width: 34%;
     }
 }

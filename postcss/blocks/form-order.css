@@ -1,20 +1,22 @@
 .form-order {
   margin-bottom: 55px;
-  padding-top: 25px;
+  padding-top: 23px;
     @media (min-width: $tablet) {
-      padding-top: 75px;
+      margin-bottom: 35px;
+      padding-top: 72px;
     }
     @media (min-width: $desktop) {
-      padding-top: 115px
+      padding-top: 127px
     }
 }
 .form-order__text {
   margin: 0 auto;
+  margin-bottom: 23px;
   font-size: 13px;
   line-height: 24px;
   color: $gray--dark;
     @media (min-width: $tablet) {
-
+      margin-bottom: 8px;
       font-size: 17px;
       line-height: 30px;
     }
@@ -29,10 +31,16 @@
     justify-content: space-between;
     align-items: baseline;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 42px;
+  }
+  @media (min-width: $desktop) {
+    margin-left: 16.7%;
+    margin-top: 37px;
+    width: 66.67%;
   }
 }
 .form-order__require {
+  margin-bottom: 29px;
   font-size: 14px;
   line-height: 16px;
   color: $gray--dark;

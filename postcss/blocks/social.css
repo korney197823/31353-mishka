@@ -1,6 +1,7 @@
 .social {
   display: flex;
   justify-content: center;
+  align-items: center;
   padding-top: 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid #e5e5e5;
@@ -11,19 +12,25 @@
 }
 .social__link {
   display: block;
-  width: 29px;
-  height: 29px;
-  background-repeat: no-repeat;
-  background-position: center center;
+  &:hover {
+     fill: #53BBA7;
+   }
+  &:active {
+     fill: #C1E0DA;
+   }
   &--instagram {
-    background-image: url('../img/icon-insta.svg');
-    margin-right: 27px;
+    margin-right: 40px;
+    @media (min-width: $tablet) {
+
+    }
   }
   &--facebook {
-    background-image: url('../img/icon-fb.svg');
-    margin-right: 27px;
+    margin-right: 40px;
+    @media (min-width: $tablet) {
+
+    }
   }
   &--twitter {
-    background-image: url('../img/icon-twitter.svg');
+
   }
 }

@@ -13,6 +13,7 @@
        position: static;
        display: flex;
        justify-content: center;
+       margin-right: 0;
      }
    }
   &--cart {
@@ -23,12 +24,14 @@
      background-image: url("../img/icon-cart.svg");
      @media (min-width: $tablet) {
         margin-right: 30px;
+        left: calc(15% - 8px);
+        top: 35px;
      }
    }
   &--copyright {
-    display: block;
-    width: 27px;
-    height: 34px;
-    background-image: url("../img/logo-htmlacademy.svg");
+    /*display: block;*/
+    /*width: 27px;*/
+    /*height: 34px;*/
+    fill: #6bccb4;
   }
 }

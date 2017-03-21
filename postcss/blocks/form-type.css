@@ -1,5 +1,9 @@
 .form-type {
+  padding-top: 25px;
+  padding-bottom: 24px;
   @media (min-width: $tablet) {
+    padding-top: 50px;
+    padding-bottom: 50px;
     width: 75%;
   }
   @media (min-width: $desktop) {
@@ -12,11 +16,28 @@
 .form-type__radio {
   display: block;
   position: relative;
-  margin-bottom: 22px;
+  min-height: 50px;
   padding-top: 11px;
   padding-bottom: 11px;
   padding-left: 64px;
   cursor: pointer;
+  @media (min-width: $tablet) {
+    min-height: 52px;
+    padding-left: 81px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+  }
+  &:hover {
+    &:before {
+       border-color: $color-main;
+     }
+  }
+  &:active {
+    &:before {
+      border-color: #C4C4C4;
+    }
+  }
+
   &:before {
     position: absolute;
     content: '';
@@ -25,7 +46,14 @@
     top: 0;
     left: 0;
     border: 2px solid $gray--dark;
-  border-radius: 50%;
+    border-radius: 50%;
+    @media (min-width: $tablet) {
+      width: 52px;
+      height: 52px;
+    }
+  }
+  &[for="accessories"] {
+    margin-bottom: 24px;
   }
 }
 .form-type__input:checked + .form-type__radio {
@@ -38,5 +66,11 @@
    left: 12px;
    border-radius: 50%;
    background-color: $color-main;
+   @media (min-width: $tablet) {
+     width: 22px;
+     height: 22px;
+     top: 15px;
+     left: 15px;
+   }
  }
 }

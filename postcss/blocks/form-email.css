@@ -1,6 +1,9 @@
 .form-email {
+  position: relative;
+  margin-bottom: 32px;
   @media (min-width: $tablet) {
     width: 75%;
+    margin-bottom: 49px;
   }
   @media (min-width: $desktop) {
     width: 66.67%;
@@ -10,10 +13,37 @@
 .form-email__input {
   display: block;
   width: 100%;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 23px;
+  padding-bottom: 17px;
+  padding-right: 40px;
   border: none;
   border-bottom: 2px solid $gray--darken;
   outline: none;
   background-color: inherit;
+  @media (min-width: $tablet) {
+    padding-right: 60px;
+  }
+  &:hover + .form-email__icon {
+     fill: $color-main;
+   }
+  &:focus + .form-email__icon {
+     fill: $color-main;
+ }
+}
+.form-email__input[placeholder] {
+  font-size: 17px;
+  line-height: 18px;
+  color: #d2d2d2;
+  letter-spacing: 0.3px;
+}
+.form-email__icon {
+  position: absolute;
+  width: 32px;
+  height: 30px;
+  right: 5px;
+  top: calc(50% - 12px);
+  fill: #CCCCCC;
+  @media (min-width: $tablet) {
+    right: 21px;
+  }
 }

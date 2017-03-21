@@ -1,18 +1,21 @@
 /*// ------------------------------------------*/
+/*// Base*/
+/*//-------------------------------------------*/
+@import 'base/normalize.css';
+@import 'base/fonts.css';
+@import 'utils/variables.css';
+@import 'base/base.css';
+@import "base/layout.css";
+
+
+/*// ------------------------------------------*/
 /*// Utils*/
 /*//-------------------------------------------*/
 
-@import 'utils/variables.css';
+
 @import 'utils/mixins.css';
 
-/*// ------------------------------------------*/
-/*// Base*/
-/*//-------------------------------------------*/
 
-@import 'base/normalize.css';
-@import 'base/base.css';
-@import 'base/fonts.css';
-@import "base/layout.css";
 
 /*// ------------------------------------------*/
 /*// Blocks*/

@@ -1,11 +1,20 @@
 .form-color {
+  padding-top: 25px;
+  padding-bottom: 10px;
+
   @media (min-width: $tablet) {
     display: flex;
     flex-wrap: wrap;
     width: 75%;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-right: 33px;
+    padding-bottom: 25px;
   }
   @media (min-width: $desktop) {
     width: 83.3%;
+    padding-top: 46px;
+    padding-right: 125px;
   }
 }
 .form-color__item {
@@ -28,29 +37,56 @@
   position: relative;
   margin-bottom: 22px;
   padding-top: 11px;
-  padding-bottom: 11px;
-  padding-left: 64px;
+  padding-bottom: 10px;
+  padding-left: 62px;
   cursor: pointer;
+  @media (min-width: $tablet) {
+    margin-bottom: 25px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 82px;
+  }
+  &:hover {
+    &:before {
+      border-color: $color-main;
+    }
+  }
+  &:active {
+    &:before {
+      border-color: #C4C4C4;
+     }
+   }
   &:before {
      position: absolute;
      content: '';
      width: 40px;
-     height: 40px;
+     height: 39px;
      top: 0;
      left: 0;
      border: 2px solid $gray--dark;
+     @media (min-width: $tablet) {
+       width: 54px;
+       height: 52px;
+     }
    }
+
 }
 .form-color__input:checked + .form-color__checkbox {
   &:after {
      position: absolute;
      content: '';
-     width: 16px;
-     height: 8px;
+     width: 21px;
+     height: 10px;
      top: 13px;
-     left: 13px;
+     left: 10px;
      border-left: 3px solid $gray--dark;
      border-bottom: 3px solid $gray--dark;
      transform: rotate(-45deg);
+     @media (min-width: $tablet) {
+       width: 30px;
+      height: 16px;
+      top: 15px;
+      left: 13px;
+     }
    }
 }

@@ -20,4 +20,7 @@
   line-height: 16px;
   font-weight: $font-bold;
   cursor: pointer;
+  &:hover {
+     border-color: #C4C4C4;
+   }
 }

@@ -1,6 +1,8 @@
 .form-addition {
+  margin-top: 25px;
   @media (min-width: $tablet) {
     width: 75%;
+    margin-top: 51px;
   }
   @media (min-width: $desktop) {
     width: 66.67%;
@@ -13,4 +15,8 @@
   border: 2px solid $gray--darken;
   resize: none;
   outline: none;
+  &:hover,
+  &:focus {
+     border-color: #63D1BB;
+   }
 }

@@ -1,6 +1,10 @@
 .form-tel {
+  position: relative;
+  margin-bottom: 32px;
   @media (min-width: $tablet) {
     width: 75%;
+    margin-top: 44px;
+    margin-bottom: 16px;
   }
   @media (min-width: $desktop) {
     width: 66.67%;
@@ -9,10 +13,38 @@
 .form-tel__input {
   display: block;
   width: 100%;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 22px;
+  padding-bottom: 16px;
+  padding-right: 40px;
   border: none;
   border-bottom: 2px solid $gray--darken;
   outline: none;
   background-color: inherit;
+  @media (min-width: $tablet) {
+    padding-right: 60px;
+  }
+  &:hover + .form-tel__icon {
+     fill: $color-main;
+   }
+  &:focus + .form-tel__icon {
+     fill: $color-main;
+   }
+}
+.form-tel__input[placeholder] {
+  font-size: 17px;
+  line-height: 18px;
+  color: #d2d2d2;
+  letter-spacing: 0.3px;
+}
+.form-tel__icon {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 3px;
+  top: calc(50% - 12px);
+  fill: #cccccc;
+  @media (min-width: $tablet) {
+    right: 22px;
+  }
+
 }

@@ -1,8 +1,15 @@
 .features {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 15px;
+  padding-bottom: 20px;
   color: $gray--darken;
   font-weight: $font-bold;
+    @media (min-width: $tablet) {
+      padding-top: 43px;
+      padding-bottom: 25px;
+    }
+    @media (min-width: $desktop) {
+      padding-top:60px;
+    }
 }
 .features__wrap {
   @media (min-width: $desktop) {
@@ -10,28 +17,39 @@
   }
 }
 .features__title {
+  margin-top: 22px;
+  margin-bottom: 31px;
   font-size: 25px;
   line-height: 30px;
     @media (min-width: $tablet) {
+      margin-bottom: 48px;
       font-size: 43px;
       line-height: 50px;
     }
     @media (min-width: $desktop) {
+
       font-size: 53px;
       line-height: 57px;
     }
 }
 .features__list {
+  margin: 0;
   padding: 0;
   list-style-type: none;
     @media (min-width: $tablet) {
+      padding-left: 5px;
       display: flex;
       flex-wrap: wrap;
     }
+    @media (min-width: $desktop) {
+      padding-left: 0;
+    }
 }
 .features__item {
-  padding-top: 38px;
+  position: relative;
+  margin-bottom: 28px;
     @media (min-width: $tablet) {
+      margin-bottom: 58px;
       width: 50%;
    }
   &--clean {
@@ -66,10 +84,41 @@
    }
 }
 .features__text {
+  margin: 0;
+  padding-top: 55px;
   font-size: 17px;
   line-height: 20px;
     @media (min-width: $tablet) {
       font-size: 20px;
       line-height: 22px;
     }
+}
+.features__icon {
+  position: absolute;
+  &--clean {
+     left: 10px;
+   }
+  &--style {
+     left: 1px;
+     top: 2px;
+   }
+  &--likes {
+     left: 9px;
+     top: 6px;
+   }
+  &--hand {
+     left: 5px;
+     top: 4px;
+   }
+  &--production {
+     left: -6px;
+     top: 5px;
+   }
+  &--gift {
+     left: 4px;
+     top: 3px;
+   }
+  svg {
+    fill: $color-main;
+  }
 }

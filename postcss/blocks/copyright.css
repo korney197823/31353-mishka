@@ -1,8 +1,11 @@
 .copyright {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 28px;
+  padding-bottom: 28px;
   font-size: 0;
   @media (min-width: $tablet) {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
     width: 33.3%
   }
 }
@@ -11,9 +14,27 @@
   justify-content: center;
   align-items: center;
   text-decoration: none;
+  font-weight: $font-bold;
+  font-style: normal;
+  font-size: 19px;
+  line-height: 18px;
+  color: #000;
+  fill: #6bccb4;
+  &:hover {
+     fill: #53bba7;
+   }
+  &:active {
+     fill: #c1e0da;
+   }
     @media (min-width: $tablet) {
       justify-content: flex-end;
+    }
+
 }
+.copyright__link .copyright__text {
+  &:active {
+     color: #a8a8a8;
+   }
 }
 .copyright__text {
   margin-right: 30px;
@@ -21,4 +42,5 @@
   font-style: normal;
   font-size: 19px;
   line-height: 18px;
+  color: #000;
 }

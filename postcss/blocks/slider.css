@@ -1,5 +1,5 @@
 .slider {
-  margin-bottom: 38px;
+  margin-bottom: 28px;
     @media (min-width: $tablet) {
       position: relative;
       margin-bottom: 0;

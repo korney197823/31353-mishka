@@ -11,23 +11,36 @@
   color: $gray--dark;
   outline: none;
   cursor: pointer;
+  &:hover {
+     background-color: #444444;
+     color: #ffffff;
+   }
+  &:active {
+     color: #8D8D8D;
+   }
   &--article {
     @media (min-width: $tablet) {
-      width: 43%;
+      width: 44%;
     }
     @media (min-width: $desktop) {
-      width: 30%;
+      width: 33.5%;
     }
    }
   &--review {
+     font-size: 18px;
     @media (min-width: $tablet) {
       position: absolute;
       width: 175px;
-      right: 0;
-      top: 80px;
+      right: -5px;
+      top: 83px;
+    }
+    @media (min-width: $desktop) {
+      right: 1px;
+      top: 81px;
     }
    }
   &--location {
+   font-size: 18px;
     @media (min-width: $tablet) {
       width: 230px;
     }
