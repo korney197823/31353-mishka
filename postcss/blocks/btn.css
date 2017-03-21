@@ -23,7 +23,7 @@
       width: 44%;
     }
     @media (min-width: $desktop) {
-      width: 30%;
+      width: 33.5%;
     }
    }
   &--review {

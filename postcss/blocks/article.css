@@ -6,7 +6,7 @@
       padding-bottom: 53px;
     }
     @media (min-width: $desktop) {
-      padding-top: 70px;
+      padding-top: 72px;
     }
 }
 .article__wrap {
@@ -19,7 +19,7 @@
     flex-direction: column;
   }
   @media (min-width: $desktop) {
-    padding-top: 160px;
+    padding-top: 168px;
     padding-left: 175px;
   }
 }
@@ -54,7 +54,9 @@
   @media (min-width: $desktop) {
     position: absolute;
     flex-direction: row-reverse;
-    top: 50px;
+    width: 650px;
+    top: 52px;
+    left: 46px;
     font-size: 53px;
     line-height: 57px;
     z-index: 200;
@@ -74,7 +76,8 @@
       line-height: 30px;
     }
     @media (min-width: $desktop) {
-      width: 30%;
+      width: 34%;
+      margin-bottom: 47px;
     }
 }
 .article__table {
@@ -132,6 +135,8 @@
       font-size: 20px;
     }
     @media (min-width: $desktop) {
-      width: 30%;
+      margin-top: 85px;
+      margin-bottom: 35px;
+      width: 34%;
     }
 }
