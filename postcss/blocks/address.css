@@ -6,6 +6,7 @@
     }
     @media (min-width: $desktop) {
       width: 100%;
+      padding-left: 5px;
     }
 }
 .address__title {
@@ -15,6 +16,9 @@
   line-height: 30px;
     @media (min-width: $tablet) {
       font-size: 17px;
+    }
+    @media (min-width: $desktop) {
+      margin-right: 23px;
     }
 }
 .address__text {

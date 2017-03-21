@@ -11,10 +11,12 @@
       padding-right: 0;
     }
     @media (min-width: $desktop) {
-      width: 30%;
+      align-self: flex-start;
+      width: 33.33%;
+      order: 0;
       margin: 0;
-      padding-left: 0;
-      padding-right: 0;
+      padding-top: 70px;
+      padding-bottom: 0;
     }
 }
 .contacts__title-wrap {
@@ -24,6 +26,10 @@
     align-items: center;
     width: 100%;
     margin-bottom: 32px;
+  }
+  @media (min-width: $desktop) {
+    position: relative;
+    margin-bottom: 49px;
   }
 }
 .contacts__title {
@@ -44,5 +50,10 @@
   display: none;
   @media (min-width: $tablet) {
     display: block;
+  }
+  @media (min-width: $desktop) {
+    position: absolute;
+    left: -107px;
+    top: -9px;
   }
 }
