@@ -34,6 +34,10 @@
       right: -5px;
       top: 83px;
     }
+    @media (min-width: $desktop) {
+      right: 1px;
+      top: 81px;
+    }
    }
   &--location {
    font-size: 18px;

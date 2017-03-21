@@ -2,6 +2,9 @@
   @media (min-width: $tablet) {
     padding-left: 5px;
   }
+  @media (min-width: $desktop) {
+    padding-left: 0px;
+  }
 }
 .slide__text {
   margin-top: 24px;
@@ -14,6 +17,10 @@
       margin-bottom: 59px;
       font-size: 17px;
       line-height: 30px;
+    }
+    @media (min-width: $desktop) {
+      margin-bottom: 39px;
+      padding-right: 90px;
     }
 }
 .slide__author {

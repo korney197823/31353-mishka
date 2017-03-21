@@ -7,6 +7,9 @@
       padding-top: 43px;
       padding-bottom: 25px;
     }
+    @media (min-width: $desktop) {
+      padding-top:60px;
+    }
 }
 .features__wrap {
   @media (min-width: $desktop) {
@@ -24,6 +27,7 @@
       line-height: 50px;
     }
     @media (min-width: $desktop) {
+
       font-size: 53px;
       line-height: 57px;
     }
@@ -36,6 +40,9 @@
       padding-left: 5px;
       display: flex;
       flex-wrap: wrap;
+    }
+    @media (min-width: $desktop) {
+      padding-left: 0;
     }
 }
 .features__item {
