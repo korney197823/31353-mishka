@@ -15,18 +15,21 @@
   &:active .bunner__title{
      color: #97E2D2;
    }
-    @media (min-width: $tablet) {
-      flex-basis: 50%;
-      padding-top: 28px;
-      padding-bottom: 28px;
-      padding-left: 36px;
-    }
+  @media (min-width: $tablet) {
+    flex-basis: 50%;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    padding-left: 36px;
+  }
     @media (min-width: $desktop) {
       padding: 30px 30px;
     }
   &--dark {
      padding-right: 26px;
      background-color: $color-main--dark;
+     @media (min-width: $tablet) {
+       padding-right: 34px;
+     }
      &:hover {
         background-color: #46C1AE;
       }

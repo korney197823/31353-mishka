@@ -2,6 +2,9 @@
   height: 457px;
   margin-bottom: 38px;
   overflow: hidden;
+    @media (min-width: $tablet) {
+      margin-bottom: 54px; 
+    }
     @media (min-width: $desktop) {
       position: absolute;
       width: 50%;

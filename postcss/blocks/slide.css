@@ -1,3 +1,8 @@
+.slide {
+  @media (min-width: $tablet) {
+    padding-left: 5px;
+  }
+}
 .slide__text {
   margin-top: 24px;
   margin-bottom: 26px;
@@ -5,6 +10,8 @@
   line-height: 30px;
   color: $gray--dark;
     @media (min-width: $tablet) {
+      margin-top: 49px;
+      margin-bottom: 59px;
       font-size: 17px;
       line-height: 30px;
     }

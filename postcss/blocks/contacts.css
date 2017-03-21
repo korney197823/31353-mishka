@@ -3,6 +3,12 @@
     @media (min-width: $tablet) {
       display: flex;
       flex-wrap: wrap;
+      width: 668px;
+      margin: 0 auto;
+      padding-top: 60px;
+      padding-bottom: 56px;
+      padding-left: 0;
+      padding-right: 0;
     }
     @media (min-width: $desktop) {
       width: 30%;
@@ -10,17 +16,32 @@
       padding-right: 0;
     }
 }
+.contacts__title-wrap {
+  @media (min-width: $tablet) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 32px;
+  }
+}
 .contacts__title {
   margin-bottom: 27px;
   font-size: 18px;
   line-height: 30px;
     @media (min-width: $tablet) {
-      width: 100%;
-      font-size: 47px;
+      margin: 0;
+      font-size: 43px;
       line-height: 50px;
     }
     @media (min-width: $desktop) {
       font-size: 53px;
       line-height: 57px;
     }
+}
+.contacts__icon {
+  display: none;
+  @media (min-width: $tablet) {
+    display: block;
+  }
 }

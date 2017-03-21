@@ -1,6 +1,6 @@
 .review {
-
     @media (min-width: $tablet) {
+      margin-bottom: 68px;
       background-image: url("../img/review@1x.jpg");
       background-repeat: no-repeat;
     }
@@ -29,6 +29,7 @@
   line-height: 30px;
   color: $gray--darken;
     @media (min-width: $tablet) {
+      padding-right: 200px;
       font-size: 43px;
       line-height: 50px;
     }

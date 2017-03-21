@@ -1,5 +1,8 @@
 .location {
   margin-bottom: 40px;
+    @media (min-width: $tablet) {
+      margin-bottom: 58px;
+    }
     @media (min-width: $desktop) {
       padding-top: 95px;
     }
