@@ -104,7 +104,11 @@
           </tr>
         </table>
         <div class="article__img-wrap">
-          <img class="article__img" src="img/triple-set-mobile@1x.jpg" alt="Вязанные корзинки">
+          <picture>
+            <source media="(min-width: 1150px)" srcset="img/triple-set-desktop@1x.jpg 1x, img/triple-set-desktop@2x.jpg 2x">
+            <source media="(min-width: 768px)" srcset="img/triple-set-tablet@1x.jpg 1x, img/triple-set-tablet@2x.jpg 2x">
+            <img class="article__img" src="img/triple-set-mobile@1x.jpg" srcset="img/triple-set-mobile@2x.jpg 2x" alt="Вязанные корзинки">
+          </picture>
         </div>
         <p class="article__price">Цена: 990 руб.</p>
         <button class="btn btn--article" id="open-modal" type="button">Заказать</button>
@@ -252,7 +256,11 @@
         </div>
       </div>
       <div class="map">
-        <img src="img/map-mobile@1x.jpg" alt="Карта">
+        <picture>
+          <source media="(min-width: 1150px)" srcset="img/map-desktop@1x.jpg 1x, img/map-desktop@2x.jpg 2x">
+          <source media="(min-width: 768px)" srcset="img/map-tablet@1x.jpg 1x, img/map-tablet@2x.jpg 2x">
+          <img src="img/map-mobile@1x.jpg" srcset="img/map-mobile@2x.jpg 2x" alt="Карта">
+        </picture>
       </div>
       <div class="location-btn__wrap">
         <button class="btn btn--location" type="button">Напишите нам</button>
