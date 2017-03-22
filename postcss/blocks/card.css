@@ -41,6 +41,8 @@
     flex-direction: column;
     justify-content: space-between;
     flex-basis: 50%;
+    padding-top: 25px;
+    padding-right: 30px;
   }
 }
 .card__title {

@@ -24,6 +24,7 @@
      background-image: none;
      background-color: #F1F1F1;
        @media (min-width: $tablet) {
+        
          min-height: 225px;
        }
        @media (min-width: $desktop) {
@@ -51,8 +52,9 @@
       line-height: 57px;
     }
   &--simple {
-     padding-left: 0;
-     padding-right: 0;
+    padding-left: 10px;
+    padding-right: 0;
+    padding-top: 19px;
      @media (min-width: $desktop) {
        padding-top: 0;
      }
