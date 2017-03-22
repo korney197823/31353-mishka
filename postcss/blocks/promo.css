@@ -39,6 +39,9 @@
        }
    }
 }
+.promo.promo--simple {
+  background-image: none;
+}
 .promo__title {
   margin: 0;
   padding: 0 30px;
