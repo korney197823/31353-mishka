@@ -1,5 +1,5 @@
 .process {
-  margin-bottom: 58px;
+  margin-bottom: 60px;
 }
 .process__wrap {
   @media (min-width: $tablet) {
@@ -15,9 +15,9 @@
 .process__title {
   display: flex;
   margin: 0;
-  padding-top: 26px;
-  padding-bottom: 26px;
-  padding-left: 34px;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  padding-left: 33px;
   padding-right: 34px;
   border: 1px solid #ECECEC;
   border-bottom-color: transparent;
@@ -33,10 +33,13 @@
 }
 .process__icon {
   fill: $color-main;
-  margin-right: 20px;
+  margin-right: 24px;
 }
 .process__discription {
-  padding: 30px;
+  padding-top: 15px;
+  padding-bottom: 32px;
+  padding-left: 33px;
+  padding-right: 33px;
   border: 1px solid #ECECEC;
   border-top-color: transparent;
     @media (min-width: $tablet) {
@@ -54,6 +57,7 @@
     }
 }
 .process__text {
+  margin-bottom: 26px;
   font-size: 13px;
   line-height: 24px;
   color: $gray--dark;
