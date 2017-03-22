@@ -1,5 +1,8 @@
 .process {
   margin-bottom: 60px;
+  @media (min-width: $desktop) {
+    margin-bottom: 108px;
+  }
 }
 .process__wrap {
   @media (min-width: $tablet) {
@@ -32,7 +35,13 @@
       font-size: 20px;
     }
     @media (min-width: $desktop) {
+      flex-direction: column;
       width: 370px;
+      margin-bottom: 33px;
+      padding-top: 43px;
+      padding-bottom: 0;
+      padding-left: 80px;
+      padding-right: 50px;
     }
 }
 .process__icon {
@@ -40,6 +49,9 @@
   margin-right: 24px;
   @media (min-width: $tablet) {
     margin-right: 31px;
+  }
+  @media (min-width: $desktop) {
+    margin-bottom: 18px;
   }
 }
 .process__discription {
@@ -58,10 +70,13 @@
     }
     @media (min-width: $desktop) {
       display: flex;
-      flex-direction: column;
+      flex-direction: column-reverse;
       justify-content: space-between;
       width: 370px;
       flex-grow: 2;
+      padding-bottom: 56px;
+      padding-left: 80px;
+      padding-right: 56px;
     }
 }
 .process__text {
