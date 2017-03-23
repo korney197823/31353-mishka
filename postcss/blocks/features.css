@@ -1,6 +1,10 @@
 .features {
   padding-top: 15px;
   padding-bottom: 20px;
+  background-image: url(../img/bg-zigzag-line.svg);
+  background-position: top;
+  background-size: contain;
+  background-repeat: repeat-x;
   color: $gray--darken;
   font-weight: $font-bold;
     @media (min-width: $tablet) {

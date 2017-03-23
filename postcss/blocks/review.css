@@ -19,7 +19,7 @@
   padding-bottom: 41px;
   @media (min-width: $tablet) {
     position: relative;
-    padding-top: 80px;
+    padding-top: 73px;
     padding-bottom: 45px;
   }
   @media (min-width: $desktop) {

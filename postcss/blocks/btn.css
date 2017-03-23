@@ -32,7 +32,7 @@
       position: absolute;
       width: 175px;
       right: -5px;
-      top: 83px;
+      top: 75px;
     }
     @media (min-width: $desktop) {
       right: 1px;
