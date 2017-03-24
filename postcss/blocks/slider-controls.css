@@ -1,5 +1,5 @@
 .slider-controls {
-  margin-bottom: 38px;
+  margin-bottom: 40px;
   display: flex;
     @media (min-width: $tablet) {
       position: absolute;
