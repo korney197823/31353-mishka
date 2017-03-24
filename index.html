@@ -16,7 +16,11 @@
         <ul class="menu__list">
           <li class="menu__item logo">
             <a class="menu__link logo__link">
-              <img src="img/logo-mobile.svg" alt="Логотип">
+              <picture>
+                <source media="(min-width: 1150px") srcset="img/logo-desktop.svg">
+                <source media="(min-width: 768px") srcset="img/logo-tablet.svg">
+                <img class="logo__img" src="img/logo-mobile.svg" alt="Логотип">
+              </picture>
             </a>
             <button class="menu__toggle" type="button"></button>
           </li>

@@ -121,6 +121,11 @@
 
   }
 }
+.menu.logo {
+  @media (min-width: $desktop) {
+    padding-right: 63px;
+  }
+}
 .menu__item.open {
   display: flex;
 }
