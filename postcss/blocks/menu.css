@@ -184,6 +184,9 @@
      }
   }
 }
+.menu__link.logo__link {
+  margin-right: 60px;
+}
 .menu__toggle {
   position: absolute;
   width: 20px;
