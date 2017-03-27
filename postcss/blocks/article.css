@@ -7,7 +7,7 @@
     }
     @media (min-width: $desktop) {
       padding-top: 72px;
-      padding-bottom: 72px;
+      padding-bottom: 70px;
     }
 }
 .article__wrap {
@@ -142,7 +142,7 @@
       font-size: 20px;
     }
     @media (min-width: $desktop) {
-      margin-top: 85px;
+      margin-top: 80px;
       margin-bottom: 31px;
       width: 34%;
     }
