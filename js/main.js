@@ -19,12 +19,13 @@ var modalOverlay = document.querySelector(".modal__overlay");
 var closeModal = document.querySelector(".close-modal");
 var openModal = document.querySelector(".open-modal");
 
-// closeModal.addEventListener("click", function() {
-//   modal.classList.toggle("closed");
-//   modalOverlay.classList.toggle("closed");
-// });
 
 openModal.addEventListener("click", function() {
+  modal.classList.toggle("closed");
+  modalOverlay.classList.toggle("closed");
+});
+
+closeModal.addEventListener("click", function() {
   modal.classList.toggle("closed");
   modalOverlay.classList.toggle("closed");
 });

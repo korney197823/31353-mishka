@@ -1,6 +1,5 @@
 .video__wrap {
   position: relative;
-  outline: 1px solid darkgreen;
   @media (min-width: $tablet) {
     order: 0;
     height: 455px;

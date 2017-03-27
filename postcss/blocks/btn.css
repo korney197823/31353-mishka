@@ -20,7 +20,7 @@
    }
   &--article {
     @media (min-width: $tablet) {
-      width: 44%;
+      width: 43%;
     }
     @media (min-width: $desktop) {
       width: 33.5%;
@@ -31,8 +31,8 @@
     @media (min-width: $tablet) {
       position: absolute;
       width: 175px;
-      right: -5px;
-      top: 83px;
+      right: -2px;
+      top: 81px;
     }
     @media (min-width: $desktop) {
       right: 1px;

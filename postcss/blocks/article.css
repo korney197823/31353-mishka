@@ -1,5 +1,5 @@
 .article {
-  padding-top: 26px;
+  padding-top: 29px;
   padding-bottom: 32px;
     @media (min-width: $tablet) {
       padding-top: 48px;
@@ -18,10 +18,14 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 410px;
   }
   @media (min-width: $desktop) {
-    padding-top: 168px;
+    height: 642px;
     padding-left: 175px;
+    justify-content: flex-start;
   }
 }
 
@@ -48,7 +52,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 58px;
+    margin-bottom: 54px;
     font-size: 43px;
     line-height: 50px;
   }
@@ -64,9 +68,10 @@
   }
 }
 
+
 .article__text {
   margin-top: 23px;
-  margin-bottom: 16px;
+  margin-bottom: 17px;
   font-size: 15px;
   line-height: 24px;
     @media (min-width: $tablet) {
@@ -78,12 +83,13 @@
     }
     @media (min-width: $desktop) {
       width: 34%;
+      margin-top: 160px;
       margin-bottom: 47px;
     }
 }
 .article__table {
   width: 100%;
-  margin-bottom: 24px;
+  margin-bottom: 27px;
   td {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -100,17 +106,17 @@
       width: 43%;
     }
     @media (min-width: $desktop) {
-      width: 30%;
+      width: 34%;
     }
 }
 .article__img-wrap {
   @media (min-width: $tablet) {
-    position: absolute;
+    align-self: flex-end;
+    order: 4;
     width: 50%;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    overflow: hidden
+  }
+  @media (min-width: $desktop) {
+    width: 60%;
   }
 }
 .article__img {
@@ -124,14 +130,14 @@
 }
 .article__price {
   margin-top: 25px;
-  margin-bottom: 25px;
+  margin-bottom: 27px;
   text-align: center;
   font-size: 17px;
   line-height: 24px;
   font-weight: $font-bold;
     @media (min-width: $tablet) {
-      width: 45%;
-      margin-top: 35px;
+      width: 43%;
+      margin-top: 28px;
       margin-bottom: 32px;
       font-size: 20px;
     }

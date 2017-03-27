@@ -4,6 +4,7 @@
   width: 100%;
   left: 0;
   top: 0;
+  z-index: 3000;
   @media (min-width: $tablet) {
     position: relative;
   }
@@ -120,6 +121,11 @@
 
   }
 }
+.menu.logo {
+  @media (min-width: $desktop) {
+    padding-right: 63px;
+  }
+}
 .menu__item.open {
   display: flex;
 }
@@ -177,6 +183,9 @@
 
      }
   }
+}
+.menu__link.logo__link {
+  margin-right: 60px;
 }
 .menu__toggle {
   position: absolute;

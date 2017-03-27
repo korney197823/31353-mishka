@@ -1,6 +1,6 @@
 .product {
   padding-top: 30px;
-  padding-bottom: 30px;
+
     @media (min-width: $tablet) {
       padding-top: 80px;
   }

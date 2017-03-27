@@ -1,10 +1,14 @@
 .process {
-  margin-bottom: 58px;
+  margin-bottom: 60px;
+  @media (min-width: $desktop) {
+    margin-bottom: 108px;
+  }
 }
 .process__wrap {
   @media (min-width: $tablet) {
     display: flex;
     flex-direction: column;
+    margin-bottom: 65px;
   }
   @media (min-width: $desktop) {
     flex-wrap: wrap;
@@ -15,9 +19,9 @@
 .process__title {
   display: flex;
   margin: 0;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 34px;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  padding-left: 33px;
   padding-right: 34px;
   border: 1px solid #ECECEC;
   border-bottom-color: transparent;
@@ -25,41 +29,66 @@
   line-height: 24px;
     @media (min-width: $tablet) {
       order: 1;
+      padding-left: 43px;
+      padding-top: 38px;
+      padding-bottom: 20px;
       font-size: 20px;
     }
     @media (min-width: $desktop) {
+      flex-direction: column;
       width: 370px;
+      margin-bottom: 33px;
+      padding-top: 43px;
+      padding-bottom: 0;
+      padding-left: 80px;
+      padding-right: 50px;
     }
 }
 .process__icon {
   fill: $color-main;
-  margin-right: 20px;
+  margin-right: 24px;
+  @media (min-width: $tablet) {
+    margin-right: 31px;
+  }
+  @media (min-width: $desktop) {
+    margin-bottom: 18px;
+  }
 }
 .process__discription {
-  padding: 30px;
+  padding-top: 15px;
+  padding-bottom: 32px;
+  padding-left: 33px;
+  padding-right: 33px;
   border: 1px solid #ECECEC;
   border-top-color: transparent;
     @media (min-width: $tablet) {
       order: 2;
+      padding-top: 0;
       padding-left: 42px;
       padding-right: 42px;
       padding-bottom: 45px;
     }
     @media (min-width: $desktop) {
       display: flex;
-      flex-direction: column;
+      flex-direction: column-reverse;
       justify-content: space-between;
       width: 370px;
       flex-grow: 2;
+      padding-bottom: 56px;
+      padding-left: 80px;
+      padding-right: 56px;
     }
 }
 .process__text {
+  margin-bottom: 26px;
   font-size: 13px;
   line-height: 24px;
   color: $gray--dark;
     @media (min-width: $tablet) {
       order: 1;
-      margin-bottom: 35px;
+      margin-top: 0;
+      margin-bottom: 31px;
       font-size: 15px;
+      line-height: 30px;
 }
 }
