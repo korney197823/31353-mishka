@@ -6,7 +6,7 @@
       padding-top: 72px;
     }
     @media (min-width: $desktop) {
-      padding-top: 127px
+      padding-top: 120px
     }
 }
 .form-order__text {

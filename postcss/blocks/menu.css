@@ -34,6 +34,7 @@
     @media (min-width: $desktop) {
       position: static;
       width: 17.619%;
+      min-height: 89px;
       border-right: 1px solid #ECECEC;
     }
    }

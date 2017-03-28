@@ -59,5 +59,8 @@
     @media (min-width: $tablet) {
       padding-top: 23px;
     }
+    @media (min-width: $desktop) {
+      padding-top: 25px;
+    }
   }
 }
