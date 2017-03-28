@@ -83,6 +83,7 @@
           display: flex;
           justify-content: flex-start;
           width: 16.6666667%;
+          min-height: 80px;
           left: 0;
           top: 80px;
       }
@@ -95,6 +96,7 @@
           display: flex;
           justify-content: center;
           width: 16.66666667%;
+          min-height: 80px;
           left: 17%;
           top: 80px;
         }
@@ -187,7 +189,7 @@
 .menu__link.logo__link {
   @media (min-width: $desktop) {
     margin-right: 60px;
-  }  
+  }
 }
 .menu__toggle {
   position: absolute;
