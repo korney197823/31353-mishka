@@ -1,5 +1,5 @@
 .features {
-  padding-top: 15px;
+  padding-top: 5px;
   padding-bottom: 20px;
   color: $gray--darken;
   font-weight: $font-bold;
@@ -18,7 +18,6 @@
   }
 }
 .features__title {
-  margin-top: 22px;
   margin-bottom: 31px;
   font-size: 25px;
   line-height: 30px;

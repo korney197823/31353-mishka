@@ -16,7 +16,7 @@
 }
 .review__wrap {
   padding-top: 7px;
-  padding-bottom: 41px;
+  padding-bottom: 43px;
   @media (min-width: $tablet) {
     position: relative;
     padding-top: 80px;

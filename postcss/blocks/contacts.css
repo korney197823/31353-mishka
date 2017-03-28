@@ -1,5 +1,5 @@
 .contacts {
-  padding: 30px 30px 38px 30px;
+  padding: 20px 30px 38px 30px;
     @media (min-width: $tablet) {
       display: flex;
       flex-wrap: wrap;
@@ -33,7 +33,7 @@
   }
 }
 .contacts__title {
-  margin-bottom: 27px;
+  margin-bottom: 25px;
   font-size: 18px;
   line-height: 30px;
     @media (min-width: $tablet) {
