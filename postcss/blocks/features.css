@@ -4,7 +4,7 @@
   color: $gray--darken;
   font-weight: $font-bold;
     @media (min-width: $tablet) {
-      padding-top: 40px;
+      padding-top: 9px;
       padding-bottom: 25px;
     }
     @media (min-width: $desktop) {
@@ -22,7 +22,7 @@
   font-size: 25px;
   line-height: 30px;
     @media (min-width: $tablet) {
-      margin-bottom: 48px;
+      margin-bottom: 46px;
       font-size: 43px;
       line-height: 50px;
     }

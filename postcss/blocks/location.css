@@ -1,7 +1,7 @@
 .location {
   margin-bottom: 40px;
     @media (min-width: $tablet) {
-      margin-bottom: 58px;
+      margin-bottom: 55px;
     }
     @media (min-width: $desktop) {
       margin-bottom: 105px;
