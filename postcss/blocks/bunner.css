@@ -9,6 +9,7 @@
   background-color: $color-main;
   text-decoration: none;
   cursor: pointer;
+  fill: #3bb09d;
   &:hover {
      background-color: #59D5BC;
    }
@@ -27,6 +28,7 @@
   &--dark {
      padding-right: 26px;
      background-color: $color-main--dark;
+     fill: #35a999;
      @media (min-width: $tablet) {
        padding-right: 34px;
      }
