@@ -37,9 +37,8 @@
     @media (min-width: $desktop) {
       flex-direction: column;
       width: 370px;
-      margin-bottom: 33px;
       padding-top: 43px;
-      padding-bottom: 0;
+      padding-bottom: 33px;
       padding-left: 80px;
       padding-right: 50px;
     }
