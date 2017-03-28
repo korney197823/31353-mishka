@@ -44,6 +44,7 @@
     }
 }
 .process__icon {
+  display: block;
   fill: $color-main;
   margin-right: 24px;
   @media (min-width: $tablet) {
