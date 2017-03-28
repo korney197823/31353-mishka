@@ -1,5 +1,5 @@
 .process {
-  margin-bottom: 60px;
+  margin-bottom: 57px;
   @media (min-width: $desktop) {
     margin-bottom: 108px;
   }
@@ -37,14 +37,14 @@
     @media (min-width: $desktop) {
       flex-direction: column;
       width: 370px;
-      margin-bottom: 33px;
       padding-top: 43px;
-      padding-bottom: 0;
+      padding-bottom: 33px;
       padding-left: 80px;
       padding-right: 50px;
     }
 }
 .process__icon {
+  display: block;
   fill: $color-main;
   margin-right: 24px;
   @media (min-width: $tablet) {
@@ -55,7 +55,7 @@
   }
 }
 .process__discription {
-  padding-top: 15px;
+  padding-top: 13px;
   padding-bottom: 32px;
   padding-left: 33px;
   padding-right: 33px;
@@ -80,7 +80,7 @@
     }
 }
 .process__text {
-  margin-bottom: 26px;
+  margin-bottom: 24px;
   font-size: 13px;
   line-height: 24px;
   color: $gray--dark;

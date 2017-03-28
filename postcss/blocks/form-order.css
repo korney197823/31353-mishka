@@ -1,12 +1,12 @@
 .form-order {
   margin-bottom: 55px;
-  padding-top: 23px;
+  padding-top: 21px;
     @media (min-width: $tablet) {
       margin-bottom: 35px;
       padding-top: 72px;
     }
     @media (min-width: $desktop) {
-      padding-top: 127px
+      padding-top: 120px
     }
 }
 .form-order__text {

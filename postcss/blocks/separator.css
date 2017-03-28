@@ -1,0 +1,12 @@
+.separator {
+  background-image: url(../img/bg-zigzag-line.svg);
+  background-size: contain;
+  background-repeat: repeat-x;
+  height: 7px;
+  @media (min-width: $tablet) {
+    height: 17px;
+  }
+  @media (min-width: $desktop) {
+    height: 21px;
+  }
+}

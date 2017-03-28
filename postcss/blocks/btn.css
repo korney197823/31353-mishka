@@ -31,12 +31,12 @@
     @media (min-width: $tablet) {
       position: absolute;
       width: 175px;
-      right: -2px;
-      top: 81px;
+      right: 0px;
+      top: 76px;
     }
     @media (min-width: $desktop) {
-      right: 1px;
-      top: 81px;
+      right: 0px;
+      top: 78px;
     }
    }
   &--location {

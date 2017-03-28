@@ -1,18 +1,14 @@
 .features {
-  padding-top: 15px;
+  padding-top: 5px;
   padding-bottom: 20px;
-  background-image: url(../img/bg-zigzag-line.svg);
-  background-position: top;
-  background-size: contain;
-  background-repeat: repeat-x;
   color: $gray--darken;
   font-weight: $font-bold;
     @media (min-width: $tablet) {
-      padding-top: 40px;
+      padding-top: 9px;
       padding-bottom: 25px;
     }
     @media (min-width: $desktop) {
-      padding-top:57px;
+      padding-top:12px;
       padding-bottom: 30px;
     }
 }
@@ -22,12 +18,11 @@
   }
 }
 .features__title {
-  margin-top: 22px;
   margin-bottom: 31px;
   font-size: 25px;
   line-height: 30px;
     @media (min-width: $tablet) {
-      margin-bottom: 48px;
+      margin-bottom: 46px;
       font-size: 43px;
       line-height: 50px;
     }

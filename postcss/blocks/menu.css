@@ -34,6 +34,7 @@
     @media (min-width: $desktop) {
       position: static;
       width: 17.619%;
+      min-height: 89px;
       border-right: 1px solid #ECECEC;
     }
    }
@@ -83,6 +84,7 @@
           display: flex;
           justify-content: flex-start;
           width: 16.6666667%;
+          min-height: 80px;
           left: 0;
           top: 80px;
       }
@@ -95,6 +97,7 @@
           display: flex;
           justify-content: center;
           width: 16.66666667%;
+          min-height: 80px;
           left: 17%;
           top: 80px;
         }
@@ -185,7 +188,9 @@
   }
 }
 .menu__link.logo__link {
-  margin-right: 60px;
+  @media (min-width: $desktop) {
+    margin-right: 60px;
+  }
 }
 .menu__toggle {
   position: absolute;

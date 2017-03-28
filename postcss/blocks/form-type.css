@@ -52,8 +52,10 @@
       height: 52px;
     }
   }
-  &[for="accessories"] {
-    margin-bottom: 24px;
+}
+.form-type__radio[for="accessories"] {
+  @media (min-width: $tablet) {
+    margin-bottom: 23px;
   }
 }
 .form-type__input:checked + .form-type__radio {

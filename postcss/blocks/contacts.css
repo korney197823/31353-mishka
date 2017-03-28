@@ -1,11 +1,11 @@
 .contacts {
-  padding: 30px 30px 38px 30px;
+  padding: 20px 30px 38px 30px;
     @media (min-width: $tablet) {
       display: flex;
       flex-wrap: wrap;
       width: 668px;
       margin: 0 auto;
-      padding-top: 60px;
+      padding-top: 43px;
       padding-bottom: 56px;
       padding-left: 0;
       padding-right: 0;
@@ -33,7 +33,7 @@
   }
 }
 .contacts__title {
-  margin-bottom: 27px;
+  margin-bottom: 25px;
   font-size: 18px;
   line-height: 30px;
     @media (min-width: $tablet) {

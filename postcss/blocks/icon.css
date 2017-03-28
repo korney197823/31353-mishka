@@ -21,7 +21,6 @@
      left: calc(15% - 10px);
      top: 30px;
      margin-right: 25px;
-     background-image: url("../img/icon-cart.svg");
      @media (min-width: $tablet) {
         margin-right: 30px;
         left: calc(15% - 8px);

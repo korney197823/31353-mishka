@@ -1,6 +1,6 @@
 .email {
   display: flex;
-  margin-bottom: 28px;
+  margin-bottom: 30px;
   color: $gray--dark;
     @media (min-width: $tablet) {
       width: 50%;

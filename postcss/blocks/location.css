@@ -1,15 +1,11 @@
 .location {
   margin-bottom: 40px;
-  background-image: url(../img/bg-zigzag-line.svg);
-  background-position: top;
-  background-size: contain;
-  background-repeat: repeat-x;
     @media (min-width: $tablet) {
-      margin-bottom: 58px;
+      margin-bottom: 55px;
     }
     @media (min-width: $desktop) {
       margin-bottom: 105px;
-      padding-top: 92px;
+      padding-top: 72px;
     }
 }
 .location__wrap {
