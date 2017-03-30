@@ -15,10 +15,11 @@
   font-size: 15px;
   line-height: 30px;
     @media (min-width: $tablet) {
+      margin-right: 25px;
       font-size: 17px;
     }
     @media (min-width: $desktop) {
-      margin-right: 23px;
+
     }
 }
 .address__text {

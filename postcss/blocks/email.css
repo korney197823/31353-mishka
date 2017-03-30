@@ -3,6 +3,7 @@
   margin-bottom: 30px;
   color: $gray--dark;
     @media (min-width: $tablet) {
+      align-items: baseline;
       width: 50%;
     }
     @media (min-width: $desktop) {
@@ -16,6 +17,7 @@
   font-size: 15px;
   line-height: 30px;
     @media (min-width: $tablet) {
+      margin-right: 24px;
       font-size: 17px;
     }
     @media (min-width: $desktop) {

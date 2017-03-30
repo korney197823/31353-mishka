@@ -92,6 +92,51 @@
       font-size: 20px;
       line-height: 22px;
     }
+  &--clean {
+     padding-right: 65px;
+        @media (min-width: $tablet) {
+          padding-right: 100px;
+        }
+        @media (min-width: $desktop) {
+          padding-right: 120px;
+        }
+   }
+  &--style {
+     padding-right: 40px;
+       @media (min-width: $tablet) {
+          padding-right: 70px;
+       }
+       @media (min-width: $desktop) {
+          padding-right: 90px;
+       }
+   }
+  &--likes {
+     padding-right: 55px;
+       @media (min-width: $tablet) {
+         padding-right: 90px;
+       }
+       @media (min-width: $desktop) {
+         padding-right: 110px;
+       }
+   }
+  &--hand {
+     padding-right: 10px;
+       @media (min-width: $tablet) {
+         padding-right: 40px;
+       }
+       @media (min-width: $desktop) {
+         padding-right: 50px;
+       }
+   }
+  &--gift {
+     padding-right: 10px;
+       @media (min-width: $tablet) {
+         padding-right: 40px;
+       }
+       @media (min-width: $desktop) {
+         padding-right: 60px;
+       }
+   }
 }
 .features__icon {
   position: absolute;
