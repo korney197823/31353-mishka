@@ -40,7 +40,7 @@
 
   &:before {
     position: absolute;
-    content: '';
+    content: "";
     width: 40px;
     height: 40px;
     top: 0;
@@ -61,7 +61,7 @@
 .form-type__input:checked + .form-type__radio {
 &:after {
    position: absolute;
-   content: '';
+   content: "";
    width: 16px;
    height: 16px;
    top: 12px;

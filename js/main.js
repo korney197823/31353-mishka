@@ -1,14 +1,18 @@
 
-var menuButtom = document.querySelector('.menu__toggle');
-var menu = document.querySelectorAll('.menu__item--mobile');
+var menuButtom = document.querySelector(".menu__toggle");
+var menu = document.querySelectorAll(".menu__item--mobile");
+
+document.addEventListener("DOMContentLoaded", function () {
+
+});
 
 
-menuButtom.addEventListener('click', function () {
+menuButtom.addEventListener("click", function () {
 
   for (var i = 0; i < menu.length; i++) {
-    menu[i].classList.toggle('open');
+    menu[i].classList.toggle("open");
   }
-  menuButtom.classList.toggle('menu__toggle--close')
+  menuButtom.classList.toggle("menu__toggle--close")
 })
 
 

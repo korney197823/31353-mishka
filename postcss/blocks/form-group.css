@@ -38,7 +38,7 @@
     @media (max-width: $mobile-only) {
       &:after {
       position: absolute;
-      content: '';
+      content: "";
       width: 76.15385%;
       height: 1px;
       background-color: $color-main;

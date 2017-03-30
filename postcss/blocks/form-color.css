@@ -58,7 +58,7 @@
    }
   &:before {
      position: absolute;
-     content: '';
+     content: "";
      width: 40px;
      height: 39px;
      top: 0;
@@ -74,7 +74,7 @@
 .form-color__input:checked + .form-color__checkbox {
   &:after {
      position: absolute;
-     content: '';
+     content: "";
      width: 21px;
      height: 10px;
      top: 13px;
