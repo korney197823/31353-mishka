@@ -23,11 +23,17 @@
   @media (min-width: $tablet) {
     padding-right: 60px;
   }
+  &:hover {
+    border-color: #62d1ba;
+   }
+  &:focus {
+    border-color: #62d1ba;
+   }
   &:hover + .form-email__icon {
-     fill: $color-main;
+    fill: $color-main;
    }
   &:focus + .form-email__icon {
-     fill: $color-main;
+    fill: $color-main;
  }
 }
 .form-email__input[placeholder] {
