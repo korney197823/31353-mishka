@@ -5,6 +5,9 @@
   left: 0;
   top: 0;
   z-index: 3000;
+  &--nojs {
+    position: static;
+   }
   @media (min-width: $tablet) {
     position: relative;
   }
@@ -124,6 +127,9 @@
 
   }
 }
+.menu__item--mobile.menu__item--mobile-nojs {
+  display: flex;
+}
 .menu.logo {
   @media (min-width: $desktop) {
     padding-right: 63px;
@@ -212,4 +218,7 @@
 @media (min-width: $tablet) {
   display: none;
 }
+}
+.menu__toggle.menu__toggle--nojs {
+  display: none;
 }

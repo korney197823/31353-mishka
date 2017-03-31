@@ -1,16 +1,21 @@
 
 var menuButtom = document.querySelector(".menu__toggle");
-var menu = document.querySelectorAll(".menu__item--mobile");
+var menu = document.querySelector(".menu");
+var menuItem = document.querySelectorAll(".menu__item--mobile");
 
 document.addEventListener("DOMContentLoaded", function () {
-
+  menu.classList.remove("menu--nojs");
+  menuButtom.classList.remove("menu__toggle--nojs");
+  for (var i = 0; i < menuItem.length; i++) {
+    menuItem[i].classList.remove("menu__item--mobile-nojs");
+  }
 });
 
 
 menuButtom.addEventListener("click", function () {
 
-  for (var i = 0; i < menu.length; i++) {
-    menu[i].classList.toggle("open");
+  for (var i = 0; i < menuItem.length; i++) {
+    menuItem[i].classList.toggle("open");
   }
   menuButtom.classList.toggle("menu__toggle--close")
 })
